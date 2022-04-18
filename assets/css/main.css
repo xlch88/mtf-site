@@ -110,13 +110,15 @@ a:hover{
 }
 
 #content .img-preview-list{
-	display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #content .img-preview{
 	display: inline-block;
-    width: 100%;
-    margin: 0 10px;
+    flex: 30%;
+    margin: 0 10px 10px 0;
     color: #5bcefa;
     border: 2px dashed #f5a9b8;
     background: #fff;
@@ -157,7 +159,9 @@ a:hover{
     }
 	
 	#content .img-preview{
-		margin-bottom:15px;
+		margin: 0;
+		margin-bottom: 15px;
+		flex: 100%;
 	}
 }
 

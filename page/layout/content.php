@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-		<title>MtF 小站 - By.悦咚@YueDongQwQ</title>
+		<title><?=$pageInfo['title']; ?> - <?=$pageInfo['sub-title']; ?> | MtF 小站 - By.悦咚@YueDongQwQ</title>
 		<link rel="stylesheet" href="/assets/css/main.css?r=<?=time(); ?>">
 		<link rel="stylesheet" href="/assets/vendor/viewer.js/viewer.min.css">
 		<link rel="stylesheet" href="//at.alicdn.com/t/font_3336549_p6hxmbr834.css">
