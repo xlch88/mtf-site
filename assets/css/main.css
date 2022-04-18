@@ -25,18 +25,26 @@ a:hover{
 
 .container{
 	max-width:1000px;
-	margin:30px auto;
+	margin:30px auto 100px auto;
 }
 
 #content{
 	background: rgb(255 255 255 / 70%);
 	border-radius: 30px;
 	padding: 30px;
+	margin: 40px 0;
 }
 
 @media (max-width: 700px) {
+	.container{
+		max-width:1000px;
+		margin:0px auto;
+	}
+	
 	#content{
 		padding: 10px;
+		margin: 0px;
+		margin-bottom: 80px;
 	}
 }
 
@@ -194,6 +202,21 @@ a:hover{
 	margin-right: 10px;
 	color: #fff;
 	text-shadow: 0px 0px 20px rgb(0 0 0 / 50%);
+}
+
+
+@media (max-width: 700px) {
+	#author img{
+		width: 40px;
+	}
+	
+	#author p{
+		font-size: 15px;
+	}
+	
+	#author{
+		padding: 5px;
+	}
 }
 
 .page-list{
