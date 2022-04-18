@@ -27,7 +27,7 @@ $page = $_GET['page'] ?? 'dir';
 $pageDatabase = include('page-database.php');
 
 uasort($pageDatabase, function($a, $b){
-	return StrToTime($a['time']) - strtotime($b['time']);
+	return StrToTime($b['time']) - strtotime($a['time']);
 });
 
 if(!($pageInfo = ($pageDatabase[$page] ?? false))){
