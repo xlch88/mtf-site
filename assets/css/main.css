@@ -1,5 +1,5 @@
 body {
-	background:url("../img/background/88849021_p0.jpg") no-repeat fixed center;
+	background:url("../img/background/89245990_p0.jpg") no-repeat fixed center;
 	background-size: cover;
 	font-family:"Microsoft YaHei";
 }
@@ -29,10 +29,18 @@ a:hover{
 }
 
 #content{
-	background: rgb(255 255 255 / 70%);
+	background:rgba(255,255,255,0.7);
 	border-radius: 30px;
 	padding: 30px;
 	margin: 40px 0;
+	word-break: break-all;
+	transition:background 0.3s;
+	font-size:20px;
+}
+
+
+#content:hover{
+	background:rgba(255,255,255,0.9);
 }
 
 @media (max-width: 700px) {
@@ -45,16 +53,27 @@ a:hover{
 		padding: 10px;
 		margin: 0px;
 		margin-bottom: 80px;
+		font-size:16px;
 	}
 }
 
-#content h1{
+#content h1,#content h2{
 	margin: 0;
 	font-weight: normal;
 	margin-top: 40px;
 }
+
+#content h1{
+	font-size:30px;
+}
+
+#content h2{
+	font-size:25px;
+	margin-top: 20px;
+}
+
 #content p{
-	margin: 10px 0;
+	margin: 30px 0;
 }
 
 #content .title{
@@ -78,6 +97,7 @@ a:hover{
 	border-left:5px solid #8bc34a;
 	padding:15px;
 	margin-bottom:15px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.1);
 }
 
 #content .block-pink{
@@ -114,7 +134,7 @@ a:hover{
 }
 
 #content .full-img{
-	width:100%;
+	max-width:100%;
 }
 
 #content .img-preview-list{
@@ -159,6 +179,14 @@ a:hover{
 	padding:15px;/*内缩进*/
 	border-radius:10px;
 	margin-bottom:15px;
+}
+
+#content .white-box{
+	background:rgba(255,255,255,0.7);
+	padding:15px;
+	border-radius:10px;
+	margin-bottom:15px;
+	box-shadow:0px 0px 30px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 700px) {

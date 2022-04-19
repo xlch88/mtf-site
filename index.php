@@ -35,4 +35,5 @@ if(!($pageInfo = ($pageDatabase[$page] ?? false))){
 	die('404 not found. 不要瞎尝试。');
 }
 
+include('page/template/functions.php');
 include('page/layout/content.php');
