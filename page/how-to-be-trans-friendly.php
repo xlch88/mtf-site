@@ -1,7 +1,4 @@
-<div class="block">
-	来源: <a href="https://blog.estela.moe/zh-Hans/2022/04/how-to-be-trans-friendly/" target="_blank">https://blog.estela.moe/zh-Hans/2022/04/how-to-be-trans-friendly/</a><br/>
-	(国内可能访问不了)
-</div>
+<?php template_src('https://blog.estela.moe/zh-Hans/2022/04/how-to-be-trans-friendly/', '山前 кішка', 0); ?>
 
 <p>当你找到这篇文章，你大概对跨性别已经有一些基础的了解，所以我也不再赘述跨性别的概念了。本文旨在给出一些基础的建议，将你友跨的愿望落实的实践之中。这些建议可以作为一个指导，但也要保持注意，接收你身边的人们的反馈，并据此做出相应的增改。给跨性别的人们创造一个更好、更安全的社会。</p>
 

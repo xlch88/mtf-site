@@ -28,7 +28,7 @@
 					<a target="_blank" href="https://mtf.wiki/">MtF.Wiki</a>(<a target="_blank" href="https://wiki.qwq.pink/">国内镜像</a>) |
 					<a target="_blank" href="https://wiki.qwq.pink/zh-cn/docs/useful-info/colloquialism/">通俗用语表</a> |
 					<a target="_blank" href="https://wiki.qwq.pink/zh-cn/docs/useful-info/abbreviation/">缩写词语表</a> |
-					<a target="_blank" href="https://www.pixiv.net/artworks/88849021">背景图PID:88849021</a> | 
+					<a target="_blank" href="https://www.pixiv.net/artworks/89245990">背景图PID:89245990</a> | 
 					<a target="_blank" href="https://github.com/xlch88/mtf-site">Github</a>
 				</p>
 			</section>

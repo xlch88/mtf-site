@@ -15,5 +15,11 @@ return [
 	'/wiki'	=> [
 		'type'	=> '302',
 		'url'	=> 'https://wiki.qwq.pink/'
-	]
+	],
+	'/危机干预'	=> [
+		'type'	=> 'args',
+		'args'	=> [
+			'page'	=> 'backup-zhihu-008'
+		]
+	],
 ];
