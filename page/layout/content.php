@@ -22,8 +22,11 @@
 				
 				<hr/>
 				
-				<p>这是一个跨性别相关文章的存储/备份网站。部分内容转载于互联网，具体来源请见文章开头，如有侵权请联系dark495@moesys.cn</p>
 				<p>
+					这是一个跨性别相关文章的存储/备份网站。<br/>
+					部分内容转载于互联网，具体来源请见文章开头，如有侵权请联系dark495@moesys.cn
+				</p>
+				<p style="margin-bottom:0;">
 					相关链接: 
 					<a target="_blank" href="https://mtf.wiki/">MtF.Wiki</a>(<a target="_blank" href="https://wiki.qwq.pink/">国内镜像</a>) |
 					<a target="_blank" href="https://wiki.qwq.pink/zh-cn/docs/useful-info/colloquialism/">通俗用语表</a> |

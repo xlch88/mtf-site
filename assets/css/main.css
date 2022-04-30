@@ -1,6 +1,5 @@
 body {
-	background:url("../img/background/89245990_p0.jpg") no-repeat fixed center;
-	background-size: cover;
+	background: rgb(238, 240, 248);
 	font-family:"Microsoft YaHei";
 }
 
@@ -24,13 +23,14 @@ a:hover{
 }
 
 .container{
-	max-width:1000px;
+	max-width:1340px;
 	margin:30px auto 100px auto;
 }
 
 #content{
-	background:rgba(255,255,255,0.7);
-	border-radius: 30px;
+	background:#fff;
+	box-shadow:0 0 30px 0 rgba(82,63,105,0.05);
+	border-radius: 6px;
 	padding: 30px;
 	margin: 40px 0;
 	word-break: break-all;
@@ -80,8 +80,7 @@ a:hover{
 	font-size: 35px;
 	text-align: center;
 	margin-bottom: 10px;
-	color: #ffffff;
-	text-shadow: 0px 3px 10px #000;
+	color: #03a9f4;
 	font-weight: bolder;
 }
 
@@ -258,7 +257,6 @@ a:hover{
 }
 
 .page-list .item a{
-	background: #fff;
     padding: 25px;
     display: block;
     width: 100%;
@@ -266,9 +264,8 @@ a:hover{
     text-align: left;
     text-decoration: none;
     color: #000;
-    border-radius: 10px;
-	transition: box-shadow 0.3s;
-    box-shadow: 0px 10px 20px rgb(0,0,0,0.2);
+	transition: border 0.3s, border-radius 0.3s;
+	border: 1px solid rgb(213,220,237);
 	position:relative;
 }
 
@@ -292,7 +289,8 @@ a:hover{
 }
 
 .page-list .item a:hover{
-    box-shadow: 0px 0px 10px rgb(0,0,0,0.3);
+    border: 1px solid #ff7e95;
+    border-radius: 10px;
 }
 
 @media (max-width: 700px) {
