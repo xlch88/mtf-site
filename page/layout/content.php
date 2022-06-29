@@ -42,14 +42,14 @@
 					<footer>
 						<p>
 							这是一个跨性别相关内容的存储/备份网站。<br/>
-							部分内容转载于互联网，具体来源请见页面开头，如有侵权请在Github发起Issues。
+							部分内容转载于互联网，具体来源请见页面开头，如有侵权和任何疑问请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起Issues。
 						</p>
 					</footer>
 				<?php }else{ ?>
 					<footer>
 						<p>
 							这是一个跨性别相关文章的存储/备份网站。<br/>
-							部分内容转载于互联网，具体来源请见文章开头，如有侵权请在Github发起Issues。
+							部分内容转载于互联网，具体来源请见文章开头，如有侵权和任何疑问请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起Issues。
 						</p>
 						<p class="url-explode">
 							<a target="_blank" href="https://mtf.wiki/">MtF.Wiki</a>(<a target="_blank" href="https://wiki.qwq.pink/">国内镜像</a>) |
