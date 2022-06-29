@@ -34,15 +34,22 @@
 						<p>如果您还有其他的网站可以推荐，请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起<a href="https://github.com/xlch88/mtf-site/blob/main/page/urls.php" target="_blank">Pull Request</a>或者Issues。</p>
 					</footer>
 				<?php }elseif($page === 'files'){ ?>
-				<footer>
-					<p>这里存储了一些有用的文件，希望能帮到您~</p>
-					<p>如果您需要上传其他文件，请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起<a href="https://github.com/xlch88/mtf-site/blob/main/page/files.php" target="_blank">Pull Request</a>或者Issues。</p>
-				</footer>
+					<footer>
+						<p>这里存储了一些有用的文件，希望能帮到您~</p>
+						<p>如果您需要上传其他文件，请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起<a href="https://github.com/xlch88/mtf-site/blob/main/page/files.php" target="_blank">Pull Request</a>或者Issues。</p>
+					</footer>
+				<?php }elseif($page === 'mtf-index'){ ?>
+					<footer>
+						<p>
+							这是一个跨性别相关内容的存储/备份网站。<br/>
+							部分内容转载于互联网，具体来源请见页面开头，如有侵权请在Github发起Issues。
+						</p>
+					</footer>
 				<?php }else{ ?>
 					<footer>
 						<p>
 							这是一个跨性别相关文章的存储/备份网站。<br/>
-							部分内容转载于互联网，具体来源请见文章开头，如有侵权请联系dark495@moesys.cn
+							部分内容转载于互联网，具体来源请见文章开头，如有侵权请在Github发起Issues。
 						</p>
 						<p class="url-explode">
 							<a target="_blank" href="https://mtf.wiki/">MtF.Wiki</a>(<a target="_blank" href="https://wiki.qwq.pink/">国内镜像</a>) |
