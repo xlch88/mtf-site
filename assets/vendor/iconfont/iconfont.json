@@ -1,0 +1,37 @@
+{
+  "id": "3491601",
+  "name": "MtF-Site",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2569862",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "2815727",
+      "name": "素材",
+      "font_class": "sucai",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11125236",
+      "name": "文章",
+      "font_class": "16",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "12752733",
+      "name": "网址",
+      "font_class": "wangzhi_huaban",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}

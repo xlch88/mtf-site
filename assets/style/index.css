@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Microsoft JHenghei, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 3px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover,
+body ::-webkit-scrollbar-thumb:active {
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section#main {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  transition: flex-wrap 0.3s;
+}
+@media (max-width: 700px) {
+  section#main {
+    flex-wrap: wrap;
+  }
+}
+section#main > div {
+  height: 100%;
+  font-size: 18vh;
+  line-height: 20vh;
+  color: #fff;
+  overflow: hidden;
+}
+section#main > div:nth-child(even) {
+  background: #fecadc;
+}
+section#main > div:nth-child(odd) {
+  background: #b7e2fb;
+}
+section#main > div:nth-child(3) {
+  background: #fff;
+  color: #b7e2fb;
+}
+
+section#readme {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: calc(100% - 200px);
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+section#readme .text {
+  overflow-y: overlay;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+}
+section#readme .text h1 {
+  margin: 10px 0 20px;
+  font-size: 32px;
+}
+section#readme .text p {
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  z-index: 3;
+  bottom: 15px;
+  right: 15px;
+}
+@media (max-width: 700px) {
+  footer {
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+footer .links {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 5px 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 500px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+footer a:after {
+  content: "|";
+  padding: 0 10px;
+}
+footer a:nth-last-child(1):after {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */
