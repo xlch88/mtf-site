@@ -27,7 +27,7 @@ a {
 
 .container {
 	max-width: 1340px;
-	margin: 30px auto 100px auto;
+	margin: 30px auto 0px auto;
 
 	@media (max-width: $mobile-width) {
 		max-width: 1000px;
@@ -40,14 +40,14 @@ a {
 	box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 	border-radius: 6px;
 	padding: 30px;
-	margin: 40px 0;
+	margin: 40px 0 0;
 	word-break: break-all;
 	transition: background 0.3s;
 	font-size: 20px;
 
 	@media (max-width: $mobile-width) {
 		padding: 10px;
-		margin: 0 0 80px;
+		margin: 0 0 20px;
 		font-size: 16px;
 	}
 
@@ -474,7 +474,7 @@ a {
 	}
 }
 
-footer {
+.content-tips {
 	border: 2px dashed #f5a9b8;
 	border-spacing: 60px;
 	border-radius: 10px;
@@ -493,5 +493,15 @@ footer {
 
 	i {
 		font-size: 1em;
+	}
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+
+	a {
+		color: gray;
 	}
 }

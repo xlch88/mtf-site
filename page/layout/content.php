@@ -20,7 +20,7 @@
 				<?php if(!in_array($page, ['mtf-index'])){  ?>
 					<h2 class="url-explode" style="margin:10px 0 25px 0 !important;">
 						<?php if(!in_array($page, ['files', 'urls', 'dir']) || ($page == 'dir' && ($search ?? '') != '')){ ?>
-						<a href="javascript:history.go(-1)"><i class="iconfont icon-back"></i> 返回</a><br/><br/>
+							<a href="javascript:history.go(-1)" id="back"><i class="iconfont icon-fanhui"></i> 返回</a><br/><br/>
 						<?php } ?>
 						<a href="<?=url('dir', 'mtf.qwq.pink'); ?>"><i class="iconfont icon-sucai"></i> 文章</a> |
 						<a href="<?=url(domain: 'pan.qwq.pink'); ?>"><i class="iconfont icon-16"></i> 文件</a> |
@@ -29,24 +29,24 @@
 				<?php } ?>
 
 				<?php if($page === 'urls'){ ?>
-					<footer>
+					<div class="content-tips">
 						<p>这里收录了部分跨性别相关的网站，希望能帮到您~</p>
 						<p>如果您还有其他的网站可以推荐，请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起<a href="https://github.com/xlch88/mtf-site/blob/main/page/urls.php" target="_blank">Pull Request</a>或者Issues。</p>
-					</footer>
+					</div>
 				<?php }elseif($page === 'files'){ ?>
-					<footer>
+					<div class="content-tips">
 						<p>这里存储了一些有用的文件，希望能帮到您~</p>
 						<p>如果您需要上传其他文件，请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起<a href="https://github.com/xlch88/mtf-site/blob/main/page/files.php" target="_blank">Pull Request</a>或者Issues。</p>
-					</footer>
+					</div>
 				<?php }elseif($page === 'mtf-index'){ ?>
-					<footer>
+					<div class="content-tips">
 						<p>
 							这是一个跨性别相关内容的存储/备份网站。<br/>
 							部分内容转载于互联网，具体来源请见页面开头，如有侵权和任何疑问请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起Issues。
 						</p>
-					</footer>
+					</div>
 				<?php }else{ ?>
-					<footer>
+					<div class="content-tips">
 						<p>
 							这是一个跨性别相关文章的存储/备份网站。<br/>
 							部分内容转载于互联网，具体来源请见文章开头，如有侵权和任何疑问请在<a href="https://github.com/xlch88/mtf-site" target="_blank">Github</a>发起Issues。
@@ -57,15 +57,22 @@
 							<a target="_blank" href="https://wiki.qwq.pink/zh-cn/docs/useful-info/abbreviation/">缩写词语表</a> |
 							<a target="_blank" href="https://github.com/xlch88/mtf-site">Github</a>
 						</p>
-					</footer>
+					</div>
 				<?php } ?>
 			</section>
 		</div>
 		
-		<section id="author" onclick="alert('Twitter:@YueDongQwQ')">
-			<img src="https://q1.qlogo.cn/g?b=qq&s=640&nk=787700998" alt="噔噔咚" title="噔噔咚" />
-			<p>By.悦咚</p>
-		</section>
+		<footer class="url-explode">
+			<big>
+				<a href="https://twitter.com/YueDongQwQ" target="_blank"><i class="iconfont icon-twitter"></i></a> /
+				<a href="https://github.com/xlch88/mtf-site" target="_blank"><i class="iconfont icon-github"></i></a> /
+				<a href="mailto:dark495@moesys.cn" target="_blank"><i class="iconfont icon-email"></i></a>
+			</big><br/>
+			Copyright (C) 2022 MtF-Site.<br/>
+			<small>
+				Designed By <a target="_blank" href="https://dark495.me/">Dark495 / 悦咚</a> with ❤ 2022
+			</small>
+		</footer>
 		
 		<script src="/assets/vendor/viewer.js/viewer.min.js"></script>
 		<script src="/assets/js/main.js"></script>
