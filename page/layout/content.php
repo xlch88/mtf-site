@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
 		<title><?=$pageInfo['title']; ?> - <?=strip_tags($pageInfo['sub-title']); ?> | MtF 小站 - By.悦咚@YueDongQwQ</title>
-		<link rel="stylesheet" href="/assets/style/main.css">
+		<link rel="stylesheet" href="/assets/style/main.css?v=<?=$assetsVersion; ?>">
 		<link rel="stylesheet" href="/assets/vendor/viewer.js/viewer.min.css">
-		<link rel="stylesheet" href="/assets/vendor/iconfont/iconfont.css">
+		<link rel="stylesheet" href="/assets/vendor/iconfont/iconfont.css?v=<?=$assetsVersion; ?>">
 	</head>
 	
 	<body>
@@ -75,6 +75,6 @@
 		</footer>
 		
 		<script src="/assets/vendor/viewer.js/viewer.min.js"></script>
-		<script src="/assets/js/main.js"></script>
+		<script src="/assets/js/main.js?v=<?=$assetsVersion; ?>"></script>
 	</body>
 </html>

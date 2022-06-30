@@ -19,6 +19,7 @@ $config				= include('config.php');
 $urlRewrite			= $config['urlRewrite'];
 $pageDatabase		= $config['pageDatabase'];
 $domainDefaultPage	= $config['domainDefaultPage'];
+$assetsVersion		= 20220630;
 
 // 短链接相关处理 ===================================================================
 $go = $_GET['go'] ?? false;
