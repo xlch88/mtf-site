@@ -379,13 +379,13 @@ a:hover {
   padding: 50px 0;
 }
 .mtf-index .item:nth-child(1) i {
-  background: #8bc34a;
+  background: #5bcefa;
 }
 .mtf-index .item:nth-child(2) i {
-  background: #ff9648;
+  background: #f5a9b8;
 }
 .mtf-index .item:nth-child(3) i {
-  background: #b688ff;
+  background: #ffd732;
 }
 .mtf-index .item:nth-last-child(1) {
   border-right: none;
