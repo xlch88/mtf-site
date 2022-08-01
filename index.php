@@ -12,7 +12,10 @@ if(
 		defined($line[0]) or define($line[0], is_numeric($line[1]) ? (float)$line[1] : $line[1]);
 	}
 }
-defined('DISABLE_REWRITE') or define('DISABLE_REWRITE', false);
+defined('DISABLE_REWRITE')	or define('DISABLE_REWRITE', false);
+defined('ROOT_PATH')			or define('ROOT_PATH', dirname(__FILE__));
+
+date_default_timezone_set('Asia/Shanghai');
 
 // 配置文件读取 ====================================================================
 $config				= include('config.php');

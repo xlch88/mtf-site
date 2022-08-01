@@ -135,5 +135,6 @@ return [
 		'mtf.qwq.pink'	=> 'mtf-index',
 		'go.qwq.pink'	=> 'urls',
 		'pan.qwq.pink'	=> 'files',
-	]
+	],
+	'filePath'			=> ROOT_PATH . '/assets/files/',
 ];
