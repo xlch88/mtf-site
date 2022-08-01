@@ -6,6 +6,7 @@ function url($args = [], $domain = null){
 	if(is_string($args)){
 		if(substr($args, 0, 1) == '/'){
 			$path = $args;
+			$args = [];
 		}else{
 			$args = [ 'page' => $args ];
 		}

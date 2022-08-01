@@ -19,7 +19,7 @@ $fileExtIcon = [
 	'.ppt .pptx .pptm'																							=> 'office_powerpoint',
 ];
 
-if(!($path = realpath($config['filePath'] . ($_GET['path'] ?? '')))){
+if(!($path = realpath($config['filePath'] . ($path ?? '')))){
 	$tip = '文件不存在';
 }elseif(realpath(substr($path, 0, strlen($config['filePath']))) . DIRECTORY_SEPARATOR != realpath($config['filePath']) . DIRECTORY_SEPARATOR){
 	$tip = '不允许的目录';
@@ -82,7 +82,7 @@ function getFiles($path){
 			'from'		=> $pathInfo['file'][$file]['from'] ?? '未知',
 			'top'		=> $pathInfo['file'][$file]['top'] ?? false,
 			'size'		=> $ext === 'dir' ? count(scandir("$path/$file")) - 2 . '个文件' : formatSize(filesize("$path/$file")),
-			'url'		=> url(['path' => $urlPath . '/' . $file], 'pan.qwq.pink')
+			'url'		=> url(($urlPath ? "/$urlPath" : '') . "/$file", 'pan.qwq.pink')
 		];
 	}
 	

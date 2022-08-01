@@ -22,10 +22,12 @@ $config				= include('config.php');
 $urlRewrite			= $config['urlRewrite'];
 $pageDatabase		= $config['pageDatabase'];
 $domainDefaultPage	= $config['domainDefaultPage'];
-$assetsVersion		= 20220630;
+$assetsVersion		= 20220802;
 
 // 短链接相关处理 ===================================================================
-$go = $_GET['go'] ?? false;
+$domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
+$page	= $_GET['page'] ?? $domainDefaultPage[$domain] ?? 'mtf-index';
+$go		= $_GET['go'] ?? false;
 if($urlRewriteInfo = ($urlRewrite[$go] ?? false)){
 	switch($urlRewriteInfo['type']){
 		case 'args':
@@ -41,9 +43,13 @@ if($urlRewriteInfo = ($urlRewrite[$go] ?? false)){
 			header('Location: ' . $urlRewriteInfo['url']);
 			die();
 	}
-}else if($go !== false){
+}else if($go !== false && $domain !== 'pan.qwq.pink'){
 	header('Content-Type: text/text; charset=utf-8');
 	die('404 not found. 不要把你的脸bia在键盘上。');
+}
+
+if($domain === 'pan.qwq.pink'){
+	$path = $go;
 }
 
 $pageRewrite = [];
@@ -52,10 +58,6 @@ foreach($urlRewrite as $_url => $_info){
 		$pageRewrite[$_info['args']['page']] = $_url;
 	}
 }
-
-// 域名默认页面 ====================================================================
-$domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
-$page	= $_GET['page'] ?? $domainDefaultPage[$domain] ?? 'mtf-index';
 
 // 页面数据库 ======================================================================
 uasort($pageDatabase, function($a, $b){
