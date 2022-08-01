@@ -26,7 +26,6 @@ $assetsVersion		= 20220802;
 
 // 短链接相关处理 ===================================================================
 $domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
-$page	= $_GET['page'] ?? $domainDefaultPage[$domain] ?? 'mtf-index';
 $go		= $_GET['go'] ?? false;
 if($urlRewriteInfo = ($urlRewrite[$go] ?? false)){
 	switch($urlRewriteInfo['type']){
@@ -48,6 +47,7 @@ if($urlRewriteInfo = ($urlRewrite[$go] ?? false)){
 	die('404 not found. 不要把你的脸bia在键盘上。');
 }
 
+$page	= $_GET['page'] ?? $domainDefaultPage[$domain] ?? 'mtf-index';
 if($domain === 'pan.qwq.pink'){
 	$path = $go;
 }
