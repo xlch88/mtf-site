@@ -26,7 +26,7 @@ $pageDatabase = array_filter($pageDatabase, function($info, $key)use($search){
 	<div class="page-list">
 		<?php foreach($pageDatabase as $key => $info){ ?>
 		<div class="item">
-			<a href="<?=url($key, 'mtf.qwq.pink'); ?>">
+			<a href="<?=url($key, 'doc.qwq.pink'); ?>">
 				<span class="page-list-title"><?=$info['title']; ?></span>
 				<span class="page-list-sub-title"><?=strip_tags($info['sub-title']); ?></span>
 				<span class="page-list-time">写于 <?=$info['time']; ?></span>

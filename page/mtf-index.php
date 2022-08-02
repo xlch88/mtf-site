@@ -1,5 +1,5 @@
 <div class="mtf-index">
-	<a class="item" href="<?=url('dir', domain: 'mtf.qwq.pink'); ?>">
+	<a class="item" href="<?=url(domain: 'doc.qwq.pink'); ?>">
 		<i class="iconfont icon-sucai"></i>
 		<p>文章</p>
 	</a>

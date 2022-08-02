@@ -10,7 +10,8 @@
 	</head>
 	
 	<body>
-		<div class="container">
+		<div id="background" class="background-<?=$page; ?>"></div>
+		<div id="main" class="container">
 			<section id="content">
 				<h1 class="title"><?=$pageInfo['title']; ?></h1>
 				<h2 class="sub-title"><?=$pageInfo['sub-title']; ?> | 写于 <?=$pageInfo['time'];?></h2>
@@ -22,7 +23,7 @@
 						<?php if(!in_array($page, ['files', 'urls', 'dir']) || ($page == 'dir' && ($search ?? '') != '')){ ?>
 							<a href="javascript:history.go(-1)" id="back"><i class="iconfont icon-fanhui"></i> 返回</a><br/><br/>
 						<?php } ?>
-						<a href="<?=url('dir', 'mtf.qwq.pink'); ?>"><i class="iconfont icon-sucai"></i> 文章</a> |
+						<a href="<?=url(domain: 'doc.qwq.pink'); ?>"><i class="iconfont icon-sucai"></i> 文章</a> |
 						<a href="<?=url(domain: 'pan.qwq.pink'); ?>"><i class="iconfont icon-16"></i> 文件</a> |
 						<a href="<?=url(domain: 'go.qwq.pink'); ?>"><i class="iconfont icon-wangzhi_huaban"></i> 导航</a>
 					</h2>

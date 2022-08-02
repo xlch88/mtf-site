@@ -133,6 +133,7 @@ return [
 	'domainDefaultPage'	=> [
 		'qwq.pink'		=> 'index',
 		'mtf.qwq.pink'	=> 'mtf-index',
+		'doc.qwq.pink'	=> 'dir',
 		'go.qwq.pink'	=> 'urls',
 		'pan.qwq.pink'	=> 'files',
 	],

@@ -22,7 +22,7 @@ $config				= include('config.php');
 $urlRewrite			= $config['urlRewrite'];
 $pageDatabase		= $config['pageDatabase'];
 $domainDefaultPage	= $config['domainDefaultPage'];
-$assetsVersion		= 20220802;
+$assetsVersion		= 202208030204;
 
 // 短链接相关处理 ===================================================================
 $domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
