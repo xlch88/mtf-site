@@ -21,7 +21,7 @@ $config				= include('config.php');
 $urlRewrite			= $config['urlRewrite'];
 $pageDatabase		= $config['pageDatabase'];
 $domainDefaultPage	= $config['domainDefaultPage'];
-$assetsVersion		= 202208030204;
+$assetsVersion		= 20220815041200;
 
 // 短链接相关处理 ===================================================================
 $domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
