@@ -1,7 +1,6 @@
 <?php
 // 常量相关定义 ====================================================================
 if(
-	isset($_SERVER['LOCAL_ADDR']) &&
 	$envFile = isset($_SERVER['LOCAL_ADDR']) ? '.env.local' : '.env' &&
 	file_exists($envFile)
 ){
@@ -71,6 +70,7 @@ if(!($pageInfo = ($pageDatabase[$page] ?? false))){
 
 // 文件引入 ========================================================================
 include('functions.php');
+include('vendor/autoload.php');
 
 // 某些特殊页面引入单独layout ========================================================
 switch($page){

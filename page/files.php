@@ -53,7 +53,8 @@ function getFiles($path){
 				'from'		=> '-',
 				'top'		=> false,
 				'size'		=> '未知',
-				'url'		=> '/'
+				'url'		=> '/',
+				'target'	=> '_blank'
 			], json_decode(file_get_contents("$path/$file"), true));
 			
 			continue;
@@ -82,7 +83,8 @@ function getFiles($path){
 			'from'		=> $pathInfo['file'][$file]['from'] ?? '未知',
 			'top'		=> $pathInfo['file'][$file]['top'] ?? false,
 			'size'		=> $ext === 'dir' ? count(scandir("$path/$file")) - 2 . '个文件' : formatSize(filesize("$path/$file")),
-			'url'		=> url(($urlPath ? "/$urlPath" : '') . "/$file", 'pan.qwq.pink')
+			'url'		=> url(($urlPath ? "/$urlPath" : '') . "/$file", 'pan.qwq.pink'),
+			'target'	=> '_self'
 		];
 	}
 	
@@ -111,17 +113,17 @@ if(!($files = getFiles($path))){
 <div class="table-responsive">
 	<table class="file-list">
 		<thead>
-		<tr>
-			<th>文件名</th>
-			<th>日期</th>
-			<th>提供者</th>
-			<th>大小</th>
-		</tr>
+			<tr>
+				<th>文件名</th>
+				<th>日期</th>
+				<th>提供者</th>
+				<th>大小</th>
+			</tr>
 		</thead>
 		<tbody>
 		<?php foreach($files as $file){ ?>
 			<tr>
-				<td class="name"><a href="<?=$file['url']; ?>"><div class="filetype filetype-<?=$file['extIcon']; ?>"></div> <?=$file['name']; ?></a></td>
+				<td class="name"><a href="<?=$file['url']; ?>" target="<?=$file['target']; ?>"><div class="filetype filetype-<?=$file['extIcon']; ?>"></div> <?=$file['name']; ?></a></td>
 				<td class="date"><?=$file['date']; ?></td>
 				<td class="from"><?=$file['from']; ?></td>
 				<td class="size"><?=$file['size']; ?></td>

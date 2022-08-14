@@ -5,6 +5,10 @@ body {
   color: #444;
 }
 
+@font-face {
+  font-family: Ubuntu-Title;
+  src: url(/assets/font/Ubuntu-Title.ttf);
+}
 * {
   box-sizing: border-box;
 }
@@ -23,12 +27,14 @@ a:hover {
 }
 
 .container {
-  max-width: 1340px;
+  max-width: 1400px;
   margin: 30px auto 0px auto;
+}
+.container.container-small {
+  max-width: 1000px;
 }
 @media (max-width: 700px) {
   .container {
-    max-width: 1000px;
     margin: 0 auto;
   }
 }
@@ -50,9 +56,6 @@ a:hover {
     font-size: 16px;
   }
 }
-#content:hover {
-  background: rgba(255, 255, 255, 0.9);
-}
 #content h1,
 #content h2 {
   font-weight: normal;
@@ -72,8 +75,12 @@ a:hover {
   font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
-  color: #03a9f4;
+  color: rgb(255, 105, 180);
   font-weight: bolder;
+  font-family: Ubuntu-Title, 幼圆, 微软雅黑, serif;
+  background-image: linear-gradient(135deg, #55cdfc, #a8bad9, #e6acbf, #f7a8b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #content .sub-title {
   font-size: 18px;
@@ -114,6 +121,7 @@ a:hover {
 }
 #content .full-img {
   max-width: 100%;
+  width: 100%;
 }
 #content .img-preview-list {
   display: flex;
@@ -355,6 +363,11 @@ a:hover {
   color: #6c6c6c;
   font-size: 14px;
 }
+.img-text-list .item .info .info-url {
+  color: #0bb2ff;
+  font-size: 15px;
+  margin: 0px 0 10px;
+}
 .img-text-list .item:hover .info .info-title {
   color: #ff7ec0;
 }
@@ -570,6 +583,7 @@ footer a {
   background: -webkit-linear-gradient(right bottom, #ff3e18 16.66%, #fc9a00 16.66%, #fc9a00 33.32%, #ffd800 33.32%, #ffd800 49.98%, #39ea7c 49.98%, #39ea7c 66.64%, #0bb2ff 66.64%, #0bb2ff 80.3%, #985aff 80.3%);
   z-index: 0;
   transition: background 0.3s;
+  opacity: 0.3;
 }
 #background.background-dir {
   background: linear-gradient(to bottom right, #5bcefa 50%, #8dddfc 50%);

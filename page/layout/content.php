@@ -1,9 +1,12 @@
- <!DOCTYPE html>
+<?php use League\CommonMark\GithubFlavoredMarkdownConverter; ?>
+<!DOCTYPE html>
  <html lang="cn">
 	<head>
 		<meta charset="utf-8">
 		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
 		<title><?=$pageInfo['title']; ?> - <?=strip_tags($pageInfo['sub-title']); ?> | MtF 小站 - By.悦咚@YueDongQwQ</title>
+
+		<link rel="stylesheet" href="/assets/style/github-markdown.css">
 		<link rel="stylesheet" href="/assets/style/main.css?v=<?=$assetsVersion; ?>">
 		<link rel="stylesheet" href="/assets/vendor/viewer.js/viewer.min.css">
 		<link rel="stylesheet" href="/assets/vendor/iconfont/iconfont.css?v=<?=$assetsVersion; ?>">
@@ -11,12 +14,24 @@
 	
 	<body>
 		<div id="background" class="background-<?=$page; ?>"></div>
-		<div id="main" class="container">
+		<div id="main" class="container <?=(!in_array($page, ['files', 'dir', 'mtf-index', 'urls']) ? 'container-small' : ''); ?>">
 			<section id="content">
 				<h1 class="title"><?=$pageInfo['title']; ?></h1>
 				<h2 class="sub-title"><?=$pageInfo['sub-title']; ?> | 写于 <?=$pageInfo['time'];?></h2>
 
-				<?php include('page/' . $page . '.php'); ?>
+				<?php
+				if(file_exists('page/' . $page . '.php')){
+					include('page/' . $page . '.php');
+				}elseif(file_exists('page/' . $page . '.md')){ ?>
+				<div class="markdown-body">
+					<?php
+					echo (new GithubFlavoredMarkdownConverter([
+						'html_input' => 'strip',
+						'allow_unsafe_links' => false,
+					]))->convert(file_get_contents('page/' . $page . '.md'));
+					?>
+				</div>
+				<?php } ?>
 				
 				<?php if(!in_array($page, ['mtf-index'])){  ?>
 					<h2 class="url-explode" style="margin:10px 0 25px 0 !important;">

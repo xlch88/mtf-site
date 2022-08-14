@@ -41,7 +41,7 @@
 		'title'	=> 'HRT.CAFE',
 		'desc'	=> '由海外HRT DIY社群整理的HRT药商索引（不出售药物，仅展示信息），纯英文网站，不保证在国内可用。
 					(注:请自行评估购买风险)',
-		'url'	=> 'https://hrt.cafe'
+		'url'	=> 'https://hrt.cafe/'
 	],
 ]; ?>
 <div class="img-text-list">
@@ -52,8 +52,15 @@
 		</div>
 		<div class="info">
 			<div class="info-title"><?=$info['title']; ?></div>
+			<div class="info-url"><?=substr(str_replace(['https://', 'http://'], '', $info['url']), 0, strpos(str_replace(['https://', 'http://'], '', $info['url']), '/'));?></div>
 			<div class="info-desc"><?=$info['desc']; ?></div>
 		</div>
 	</a>
 	<?php } ?>
 </div>
+
+<center class="white-box" style="margin: 50px 0">
+	🪞 以下内容镜像自 <a href="https://kuaer.club" target="_blank">kuaer.club</a> 🪞
+</center>
+
+<?php template_markdown('kuaer-club.md'); ?>
