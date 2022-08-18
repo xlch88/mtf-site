@@ -67,4 +67,9 @@
 	🪞
 </center>
 
-<?php template_markdown('2345-lgbt.md'); ?>
+<?php
+$markdown = file_get_contents(ROOT_PATH . '/assets/markdown/2345.lgbt/README.md');
+$markdown = explode("\n", $markdown);
+$markdown = array_slice($markdown, 2); // remove logo
+template_markdown(implode("\n", $markdown), 'raw');
+?>
