@@ -1,9 +1,7 @@
 <?php
 // 常量相关定义 ====================================================================
-if(
-	$envFile = isset($_SERVER['LOCAL_ADDR']) ? '.env.local' : '.env' &&
-	file_exists($envFile)
-){
+$envFile = isset($_SERVER['LOCAL_ADDR']) ? '.env.local' : '.env';
+if(file_exists($envFile)){
 	$env = explode("\n", file_get_contents($envFile));
 	foreach($env as $line){
 		$line = explode("=", $line);
@@ -23,6 +21,29 @@ $pageDatabase		= $config['pageDatabase'];
 $domainDefaultPage	= $config['domainDefaultPage'];
 $assetsVersion		= 20220818211700;
 
+// CLI ===========================================================================
+if(isset($argv)){
+	$argv = array_slice($argv, 1);
+	if (count($argv) < 1) {
+		die("Usage: php index.php [function] [args]");
+	}
+	
+	if($argv[0] == 'script'){
+		if(count($argv) < 2){
+			die("Usage: php index.php script <script>");
+		}
+		
+		$file = ROOT_PATH . "/scripts/$argv[1].php";
+		if(!file_exists($file)){
+			die("Script not found: $file");
+		}
+		
+		include $file;
+	}
+	
+	die();
+}
+
 // 短链接相关处理 ===================================================================
 $domain	= $_GET['domain'] ?? $_SERVER['HTTP_HOST'] ?? '';
 $go		= $_GET['go'] ?? false;
@@ -35,7 +56,7 @@ if($urlRewriteInfo = ($urlRewrite[$go] ?? false)){
 		case '302':
 			header('Location: ' . $urlRewriteInfo['url']);
 			die();
-			
+		
 		case '301':
 			header("HTTP/1.1 301 Moved Permanently");
 			header('Location: ' . $urlRewriteInfo['url']);
