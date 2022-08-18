@@ -1,0 +1,1284 @@
+{
+    "categories": {
+        "MtF": {
+            "name": "MtF",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "FtM": {
+            "name": "FtM",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "跨性别": {
+            "name": "跨性别",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "RLE": {
+            "name": "RLE",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "HRT": {
+            "name": "HRT",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "ADHD\/ASD": {
+            "name": "ADHD\/ASD",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "App": {
+            "name": "App",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "社区": {
+            "name": "社区",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "Discord Server": {
+            "name": "Discord Server",
+            "parent": "社区",
+            "renderType": "normal"
+        },
+        "Reddit": {
+            "name": "Reddit",
+            "parent": "社区",
+            "renderType": "normal"
+        },
+        "NGO": {
+            "name": "NGO",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "Google 地图": {
+            "name": "Google 地图",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "Bilibili": {
+            "name": "Bilibili",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "微信公众号": {
+            "name": "微信公众号",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "文化 \/ 影视作品": {
+            "name": "文化 \/ 影视作品",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "小说": {
+            "name": "小说",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "纪实文学": {
+            "name": "纪实文学",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "电影": {
+            "name": "电影",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "电视剧": {
+            "name": "电视剧",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "电视动画": {
+            "name": "电视动画",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "漫画": {
+            "name": "漫画",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "游戏": {
+            "name": "游戏",
+            "parent": "文化 \/ 影视作品",
+            "renderType": "normal"
+        },
+        "资料 \/ 文章": {
+            "name": "资料 \/ 文章",
+            "parent": null,
+            "renderType": "normal"
+        },
+        "报告 \/ 书籍": {
+            "name": "报告 \/ 书籍",
+            "parent": null,
+            "renderType": "normal"
+        }
+    },
+    "links": [
+        {
+            "name": "MtF.wiki",
+            "url": "https:\/\/mtf.wiki",
+            "description": " ([Twitter](https:\/\/twitter.com\/MtFwiki))",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "MtF 指南针",
+            "url": "https:\/\/mtf.party",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "MtF Hub",
+            "url": "https:\/\/hub.mtf.party\/explore",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "MtF 小站",
+            "url": "https:\/\/mtf.qwq.pink",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "MtFHRT@groups.io",
+            "url": "https:\/\/groups.io\/g\/MTFHRT",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Shizu's HRT Guide",
+            "url": "https:\/\/docs.hrt.guide",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "MtF 情報発信サイト",
+            "url": "https:\/\/joseika.com",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:日语"
+            ]
+        },
+        {
+            "name": "Suporn Clinic 日本公式サイト",
+            "url": "https:\/\/supornclinic.jp",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:日语"
+            ]
+        },
+        {
+            "name": "「ことのは」が運営する個人ブログ",
+            "url": "https:\/\/www.tukinasikotonoha.com",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:日语"
+            ]
+        },
+        {
+            "name": "Sex Reassignment Surgery",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Sex_reassignment_surgery_%28male-to-female%29",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Feminizing hormone therapy",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Feminizing_hormone_therapy",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Transfeminine Science",
+            "url": "https:\/\/transfemscience.org",
+            "description": "[中文译本](https:\/\/github.com\/tfsci-sc\/articles)",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "MtF Certificate",
+            "url": "https:\/\/kasuganoharuku.github.io\/MtF-Certificate\/",
+            "description": "",
+            "category": "MtF",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "FtM.wiki",
+            "url": "https:\/\/ftm.wiki",
+            "description": "[Twitter](https:\/\/twitter.com\/FtMwiki)",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "TransGuys",
+            "url": "https:\/\/transguys.com",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Top Surgery Guide",
+            "url": "https:\/\/www.topsurgery.net",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Hudson's FtM Resource Guide",
+            "url": "http:\/\/www.ftmguide.org",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "FtM International",
+            "url": "http:\/\/www.ftmi.org",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Sex Reassignment Surgery",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Sex_reassignment_surgery_%28female-to-male%29",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Masculinizing hormone therapy",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Masculinizing_hormone_therapy",
+            "description": "",
+            "category": "FtM",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "世界跨性别健康专业协会（WPATH）",
+            "url": "https:\/\/www.wpath.org",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "全国跨性别平权中心",
+            "url": "https:\/\/transequality.org",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语",
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Sylvia Rivera Law Project",
+            "url": "https:\/\/srlp.org",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语",
+                "country:美国"
+            ]
+        },
+        {
+            "name": "跨性别法律中心",
+            "url": "https:\/\/transgenderlawcenter.org",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Gender Spectrum",
+            "url": "http:\/\/www.genderspectrum.org",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "美国心理学会",
+            "url": "https:\/\/www.apa.org\/topics\/lgbtq",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "日本 GID\/GD と共に生きる人々の会",
+            "url": "https:\/\/gid.jp",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:日语"
+            ]
+        },
+        {
+            "name": "label X",
+            "url": "https:\/\/ftxmtx-x-gender.com",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:日语"
+            ]
+        },
+        {
+            "name": "Gender Analysis",
+            "url": "https:\/\/genderanalysis.net",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Wiki Trans",
+            "url": "https:\/\/wikitrans.co",
+            "description": "",
+            "category": "跨性别",
+            "subCategory": null,
+            "tags": [
+                "lang:法语"
+            ]
+        },
+        {
+            "name": "RLE.wiki",
+            "url": "https:\/\/rle.wiki",
+            "description": "",
+            "category": "RLE",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "成为女孩子的声音！",
+            "url": "https:\/\/mtf-wiki.github.io\/jyosei-guide\/",
+            "description": "",
+            "category": "RLE",
+            "subCategory": null,
+            "tags": [
+                "assets-type:电子书"
+            ]
+        },
+        {
+            "name": "无性别卫生间分享计划",
+            "url": "https:\/\/github.com\/xfoxfu\/KagurazakaToilet",
+            "description": "",
+            "category": "RLE",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "HRT.Cafe",
+            "url": "https:\/\/hrt.cafe",
+            "description": "",
+            "category": "HRT",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "DIY HRT",
+            "url": "https:\/\/diyhrt.wiki",
+            "description": "",
+            "category": "HRT",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "DIY HRT (frama)",
+            "url": "https:\/\/diyhrt.frama.io",
+            "description": "",
+            "category": "HRT",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "中国大陆 ADHD\/ASD 成人可确诊地图",
+            "url": "https:\/\/qingshanasd.cn\/medical-map\/",
+            "description": "",
+            "category": "ADHD\/ASD",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "transHelper (Android)",
+            "url": "https:\/\/github.com\/MsZhu-trans\/transHelper-release",
+            "description": "",
+            "category": "App",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "那些秋叶",
+            "url": "https:\/\/one-among.us",
+            "description": "拒绝对跨性别的暴力",
+            "category": "社区",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "limelight.moe",
+            "url": "https:\/\/limelight.moe",
+            "description": "目前已关闭注册",
+            "category": "社区",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "生如夏花论坛",
+            "url": "https:\/\/bbs.viva-la-vita.org",
+            "description": "",
+            "category": "社区",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨樂園",
+            "url": "https:\/\/www.transnation.asia",
+            "description": "",
+            "category": "社区",
+            "subCategory": null,
+            "tags": [
+                "country:香港"
+            ]
+        },
+        {
+            "name": "成為自己－未竟之路性別實踐論壇",
+            "url": "https:\/\/trnt.tw",
+            "description": "",
+            "category": "社区",
+            "subCategory": null,
+            "tags": [
+                "country:台湾"
+            ]
+        },
+        {
+            "name": "不明小站",
+            "url": "https:\/\/trnt.lgbt",
+            "description": "",
+            "category": "社区",
+            "subCategory": null,
+            "tags": [
+                "country:台湾"
+            ]
+        },
+        {
+            "name": "MtF.wiki Official",
+            "url": "https:\/\/link.mtf.wiki\/discord",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Discord Server",
+            "tags": []
+        },
+        {
+            "name": "MtF.wiki Official (Japan)",
+            "url": "https:\/\/link.mtf.wiki\/discord-japan",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Discord Server",
+            "tags": []
+        },
+        {
+            "name": "FtM.wiki Official",
+            "url": "https:\/\/link.ftm.wiki\/discord",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Discord Server",
+            "tags": []
+        },
+        {
+            "name": "MtF 中文社区",
+            "url": "https:\/\/www.reddit.com\/r\/mtf_zh",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Reddit",
+            "tags": []
+        },
+        {
+            "name": "MtF Wiki",
+            "url": "https:\/\/www.reddit.com\/r\/mtf\/wiki",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Reddit",
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "FtM Wiki",
+            "url": "https:\/\/www.reddit.com\/r\/ftm\/wiki",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Reddit",
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Transgender Surgeries",
+            "url": "https:\/\/www.reddit.com\/r\/Transgender_Surgeries",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Reddit",
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "Transgender Surgeries Wiki",
+            "url": "https:\/\/www.reddit.com\/r\/TransSurgeriesWiki\/wiki",
+            "description": "",
+            "category": "社区",
+            "subCategory": "Reddit",
+            "tags": [
+                "lang:英语"
+            ]
+        },
+        {
+            "name": "跨儿心理小组",
+            "url": "https:\/\/kuaerxinli.org",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:中国大陆"
+            ]
+        },
+        {
+            "name": "庄尼心理咨询中心",
+            "url": "http:\/\/www.johnnycenter.com",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:中国大陆"
+            ]
+        },
+        {
+            "name": "LGBTQIA in China",
+            "url": "https:\/\/github.com\/LGBT-CN\/LGBTQIA-In-China",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:中国大陆"
+            ]
+        },
+        {
+            "name": "平權在線",
+            "url": "https:\/\/www.equalityrights.hku.hk",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:香港"
+            ]
+        },
+        {
+            "name": "平等機會委員會",
+            "url": "https:\/\/www.eoc.org.hk",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:香港"
+            ]
+        },
+        {
+            "name": "台灣性別不明關懷協會",
+            "url": "https:\/\/www.istscare.org",
+            "description": "",
+            "category": "NGO",
+            "subCategory": null,
+            "tags": [
+                "country:台湾"
+            ]
+        },
+        {
+            "name": "中国 (P.R.C)",
+            "url": "https:\/\/link.mtf.wiki\/maps\/cn",
+            "description": "",
+            "category": "Google 地图",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "台湾 (R.O.C)",
+            "url": "https:\/\/link.mtf.wiki\/maps\/tw",
+            "description": "",
+            "category": "Google 地图",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "日本",
+            "url": "https:\/\/link.mtf.wiki\/maps\/jp",
+            "description": "",
+            "category": "Google 地图",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "香港",
+            "url": "https:\/\/link.mtf.wiki\/maps\/hk",
+            "description": "",
+            "category": "Google 地图",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "泰国 (SRS)",
+            "url": "https:\/\/link.mtf.wiki\/maps\/th",
+            "description": "",
+            "category": "Google 地图",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "潘柏林",
+            "url": "https:\/\/space.bilibili.com\/2085711307",
+            "description": "",
+            "category": "Bilibili",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "陈臻",
+            "url": "https:\/\/space.bilibili.com\/674195647",
+            "description": "",
+            "category": "Bilibili",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "BIE 别的女孩",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=biedegirls",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Queer Squad",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=gh_5d4c0fed0e4c",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "同城青少年资源中心",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=glcac-03",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "女友组 girlfans",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=girlfans2009GZ",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨儿心理",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=kuaerxinli",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨儿说 TransTalks",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=TransTalks",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别热线",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=TransHotline",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨赛斯",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=trans_0201",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨青年",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=TSECC2017",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "镇镇的彩虹",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=rainbowzz2016",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "飞天猫兄弟盟",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=gh_bbdc988d3885",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "北同文化",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=beitong2021",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "北同心理",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=gh_81ecf82769f5",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "北同服务号",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=lgbtcenterservice",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "lesgo 苏州拉拉公益小组",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=lesgosuzhoulala",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "云南平行健康咨询发展中心",
+            "url": "https:\/\/open.weixin.qq.com\/qr\/code?username=ynpx087163379065",
+            "description": "",
+            "category": "微信公众号",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "LGBT fiction",
+            "url": "https:\/\/zh.wikipedia.org\/wiki\/Template:LGBT_fiction",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "想要变成鹰的鱼",
+            "url": "https:\/\/book.sfacg.com\/Novel\/48251",
+            "description": "原名：药娘的天空",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "小说",
+            "tags": []
+        },
+        {
+            "name": "Luna (2004)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Luna_%28Peters_novel%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "小说",
+            "tags": []
+        },
+        {
+            "name": "Becoming Nicole",
+            "url": "https:\/\/books.google.com\/books?id=hIjZCgAAQBAJ",
+            "description": "一般译作：「成为妮可：一个普通美国家庭的艰难改变」)",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "纪实文学",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Boys Don't Cry (1999)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Boys_Don%27t_Cry_%281999_film%29",
+            "description": "一般译作「男孩别哭」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Soldier's Girl (2003)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Soldier%27s_Girl",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": []
+        },
+        {
+            "name": "蝴蝶 (2004)",
+            "url": "https:\/\/zh.wikipedia.org\/wiki\/蝴蝶_%282004年電影%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:香港"
+            ]
+        },
+        {
+            "name": "Trans America (2005)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Transamerica_%28film%29",
+            "description": "一般译作「穿越美国」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Just Charlie (2010)",
+            "url": "https:\/\/www.imdb.com\/title\/tt4838248\/",
+            "description": "一般译作「我是女生」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "The Danish Girl (2015)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/The_Danish_Girl_%28film%29",
+            "description": "一般译作「丹麦女孩」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "有性无别 (2016)",
+            "url": "https:\/\/movie.douban.com\/subject\/26954005\/",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": []
+        },
+        {
+            "name": "彼らが本気で編むときは、 (2017)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/彼らが本気で編むときは、",
+            "description": "一般译作「人生密密缝」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:日本"
+            ]
+        },
+        {
+            "name": "Girl (2018)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Girl_%282018_film%29",
+            "description": "一般译作「女孩」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "翠絲 (2018)",
+            "url": "https:\/\/zh.wikipedia.org\/wiki\/翠絲_%28電影%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电影",
+            "tags": [
+                "country:香港"
+            ]
+        },
+        {
+            "name": "私が私であるために (2006)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/私が私であるために",
+            "description": "一般译作「为己而生」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": [
+                "country:日本"
+            ]
+        },
+        {
+            "name": "Orange is the New Black (2013)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Orange_Is_the_New_Black",
+            "description": "一般译作「女子监狱」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Sense8 (2015)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Sense8",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "Pose (2018)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Pose_%28TV_series%29",
+            "description": "一般译作「姿态」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": [
+                "country:美国"
+            ]
+        },
+        {
+            "name": "女子的生活 (2018)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/女子的生活",
+            "description": "一般译作「女子的生活」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": [
+                "country:日本"
+            ]
+        },
+        {
+            "name": "Euphoria (2019)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Euphoria_%28American_TV_series%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": []
+        },
+        {
+            "name": "Veneno (2020)",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Veneno_%28TV_series%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视剧",
+            "tags": []
+        },
+        {
+            "name": "放浪息子",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/放浪息子",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视动画",
+            "tags": []
+        },
+        {
+            "name": "Back Street Girls",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/Back_Street_Girls",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "电视动画",
+            "tags": []
+        },
+        {
+            "name": "IS〜男でも女でもない性〜 (2003)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/IS〜男でも女でもない性〜",
+            "description": "一般译作：「IS 上帝的恶作剧」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "生まれる性別をまちがえた! (2017)",
+            "url": "https:\/\/www.amazon.co.jp\/dp\/4041052386",
+            "description": "一般译作：「我生错性别了！」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "性別「モナリザ」の君へ。 (2018)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/性別「モナリザ」の君へ。",
+            "description": "一般译作：「致性别为“蒙娜丽莎”的你。」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "不可解なぼくのすべてを (2018)",
+            "url": "https:\/\/comic.pixiv.net\/works\/5315",
+            "description": "一般译作：「不可解的我的一切」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "オレが私になるまで (2019)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/オレが私になるまで",
+            "description": "一般译作：「直到我不再是我」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "先輩はおとこのこ (2019)",
+            "url": "https:\/\/ja.wikipedia.org\/wiki\/先輩はおとこのこ",
+            "description": "一般译作：「前辈是伪娘」",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "漫画",
+            "tags": []
+        },
+        {
+            "name": "Celeste",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Celeste_%28video_game%29",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "游戏",
+            "tags": []
+        },
+        {
+            "name": "A YEAR OF SPRINGS",
+            "url": "https:\/\/store.steampowered.com\/app\/1688580",
+            "description": "",
+            "category": "文化 \/ 影视作品",
+            "subCategory": "游戏",
+            "tags": []
+        },
+        {
+            "name": "awesome trans",
+            "url": "https:\/\/awesometrans.github.io\/awesometrans_zh\/",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Transgender Resources Center",
+            "url": "https:\/\/tgr.org.hk",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Transgender lost years",
+            "url": "https:\/\/github.com\/KristallWang\/Transgender-lost-years",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "UCSF Transgender Care",
+            "url": "https:\/\/transcare.ucsf.edu",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "Healthy Place",
+            "url": "https:\/\/www.healthyplace.com",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别在线·文档库",
+            "url": "https:\/\/docs.transonline.org.cn",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "LGBT 文件资料索引库",
+            "url": "https:\/\/cnlgbtdata.com",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "生如夏花知识库",
+            "url": "https:\/\/wiki.viva-la-vita.org",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "这就是性别烦躁，供参考",
+            "url": "https:\/\/genderdysphoria.fyi\/zh\/",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "医保开 HRT（激素代替治疗）药物流程",
+            "url": "https:\/\/zhuanlan.zhihu.com\/p\/387187000",
+            "description": "",
+            "category": "资料 \/ 文章",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别者性别认同的法律承认 - 中国相关法律和政策评估报告",
+            "url": "https:\/\/www.cn.undp.org\/content\/china\/zh\/home\/library\/democratic_governance\/legal-gender-recognition-in-china--a-legal-and-policy-review-.html",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "中国性少数群体生存状况 - 基于性倾向，性别认同和性别表达的社会态度调查报告",
+            "url": "https:\/\/www.cn.undp.org\/content\/china\/zh\/home\/library\/democratic_governance\/being-lgbt-in-china\/",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "为亚洲及太平洋地区跨性别者及其社群提供完善照护之构想",
+            "url": "https:\/\/www.cn.undp.org\/content\/china\/zh\/home\/library\/democratic_governance\/blueprint-for-the-provision-of-comprehensive-care-for-trans-peop.html",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "中国跨性别者寻求性别确认医疗程序时遇到的障碍",
+            "url": "https:\/\/www.amnesty.org\/en\/documents\/asa17\/0269\/2019\/en\/",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性別人士\/變性人在香港的權利 - 問與答",
+            "url": "https:\/\/www.eoc.org.hk\/eoc\/upload\/20141120161458391903.pdf",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": [
+                "lang:繁体中文"
+            ]
+        },
+        {
+            "name": "全球跨性别健康与幸福指数议题 - TvT 社群报告",
+            "url": "https:\/\/transrespect.org\/en\/tvt-publication-series\/",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别女性的评估和管理",
+            "url": "https:\/\/www.uptodate.com\/contents\/zh-Hans\/transgender-women-evaluation-and-management",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别男性的评估与管理",
+            "url": "https:\/\/www.uptodate.com\/contents\/zh-Hans\/transgender-men-evaluation-and-management",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": []
+        },
+        {
+            "name": "跨性别男性的医疗保健医护人员指南",
+            "url": "https:\/\/www.nickgorton.org\/2021\/01\/17\/medical-therapy-and-health-maintenance-for-transgender-men\/",
+            "description": "",
+            "category": "报告 \/ 书籍",
+            "subCategory": null,
+            "tags": [
+                "lang:英语"
+            ]
+        }
+    ]
+}
