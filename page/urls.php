@@ -60,7 +60,11 @@
 </div>
 
 <center class="white-box" style="margin: 50px 0">
-	🪞 以下内容镜像自 <a href="https://kuaer.club" target="_blank">kuaer.club</a> 🪞
+	🪞 以下内容镜像自
+	<a href="https://2345.lgbt/" target="_blank" title="2345.lgbt">
+		<div class="logo-2345-lgbt"><span></span><span></span><span></span><span></span><span></span></div>
+	</a>
+	🪞
 </center>
 
-<?php template_markdown('kuaer-club.md'); ?>
+<?php template_markdown('2345-lgbt.md'); ?>
