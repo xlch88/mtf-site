@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-897890397b004d81012",applicationID:"899509271"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="canonical" href="https://www.undp.org/china" />
+<meta property="og:site_name" content="UNDP" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.undp.org/china" />
+<meta property="og:title" content="China | United Nations Development Programme" />
+<meta property="og:image" content="https://www.undp.org" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@undp" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/g/files/zskgke326/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.undp.org/china" />
+<link rel="alternate" hreflang="zh" href="https://www.undp.org/zh/china" />
+<script src="/sites/g/files/zskgke326/files/google_tag/www_production_anonymous_user/google_tag.script.js?rg3l5w" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>China | United Nations Development Programme</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/zskgke326/files/css/css_lOkgoC0bRhdDZXM28WmYfBx6R8JjI4GM-97N0SSqIIc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/zskgke326/files/css/css_0ahNQ3fg7S_EMUYu_mz69lWfB7QI9f-IwxxcAftPYo4.css" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <cohesion-placeholder></cohesion-placeholder>
+</head>
+<body class="path-group">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+    Skip to main content
+</a>
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHKHS2Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  
+    				  	<header class="country-header country-load-animation">
+		<section class="header">
+			<div class="coh-container">
+				<div class="coh-row coh-row-xl coh-row-visible-xl">
+					<div class="coh-row-inner align-content-middle">
+						<div class="coh-column coh-col-lg-9 coh-col-sm-9 coh-col-xl-9 align-self-middle top-left">
+							<a href="/china" class="logo">
+								<img
+									src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-blue.svg"
+									  alt="UNDP logo"
+								/>
+							</a>
+							<div class="site-title">
+								<a href="/china">
+																	China
+																</a>
+							</div>
+							<nav class="menu">
+																<ul>
+																			<li data-menu-id="headerlink1">
+											<a href="" tabindex="0">Who we are
+											</a>
+										</li>
+																													<li data-menu-id="headerlink2">
+											<a href="" tabindex="0">What we do
+											</a>
+										</li>
+																													<li data-menu-id="headerlink3">
+											<a href="" tabindex="0">Our Impact
+											</a>
+										</li>
+																													<li data-menu-id="headerlink4">
+											<a href="" tabindex="0">Get involved
+											</a>
+										</li>
+																											</ul>
+							</nav>
+						</div>
+						<div class="coh-column coh-col-lg-3 coh-col-sm-3 coh-col-xl-3 top-right">
+													<div class="dropdown-language" data-dropdown-languages="">
+								<button class="blue" aria-label="English, Select your language" aria-expanded="false">
+									English
+								</button>
+								<ul role="menu" data-options="">
+																																																	<li role="menuitem">
+																									<a href="/zh/china">中文</a>
+																							</li>
+																											</ul>							</div>
+														<button class="icon-globe disabled">Global</button>
+							<button class="menu-hamburger" aria-label="menu-icon">
+								<span class="hamburger-line line-top"></span>
+								<span class="hamburger-line line-middle"></span>
+								<span class="hamburger-line line-bottom"></span>
+								Nav toggle
+							</button>
+							<button class="icon-search">Search</button>
+						</div>
+					<!-- primary menu starts here -->
+
+						<div class="mobile-nav">
+							<div class="coh-row coh-row-xl coh-row-visible-xl">
+							<div class="coh-row-inner align-content-middle">
+								<div class="coh-column mobile-links" data-menu-main-options="">
+									<ul>
+																															<li>
+												<a class="cta__link cta--space" href="#" id="headerlink1">
+													Who we are
+												</a>
+											</li>
+																																<li>
+												<a class="cta__link cta--space" href="#" id="headerlink2">
+													What we do
+												</a>
+											</li>
+																																<li>
+												<a class="cta__link cta--space" href="#" id="headerlink3">
+													Our Impact
+												</a>
+											</li>
+																																<li>
+												<a class="cta__link cta--space" href="#" id="headerlink4">
+													Get involved
+												</a>
+											</li>
+																														</ul>
+																			<div class="mobile-nav-options">
+																					<a role="button" tabindex="0" class="mob-lang-switcher"><img src="/themes/custom/undpglobal/design-system/images/language.svg" alt="icon-language" width='24px' height='24px'>
+											English
+										</a>
+																				<a role="button" tabindex="0" class="mob-globe"><img src="/themes/custom/undpglobal/design-system/images/globe.svg" alt="icon-global" width='24px' height='24px'>
+											Locations</a>
+									</div>
+																	</div>
+								<div class="coh-column mobile-sub-menu">
+								</div>
+																	<div class="coh-column mob-sub-lang"> <button class="back-nav">
+											<img src="/themes/custom/undpglobal/design-system/images/back.svg" alt="back button">
+											Back
+										</button>
+										<ul class="sub-sub-lang">
+											<li class="menu-item">
+												<span>Select Language</span>
+												<ul>
+																																																																					<li>
+																																	<a href="/zh/china">中文</a>
+																															</li>
+																																							</ul>
+											</li>
+										</ul>
+									</div>							</div>
+							</div>
+													</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="mega-wrapper">
+        </div>
+	</header>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-mainpagecontent" data-block-plugin-id="system_main_block">
+  
+    
+      
+<div class="group group--full group--group-sites country-page-wrapper">
+	
+	<div>
+		            <div>                          <div class="coh-container ssa-component coh-component ssa-component-instance-640a07f4-57b7-4d19-9ab9-46fa30f8c26d coh-component-instance-640a07f4-57b7-4d19-9ab9-46fa30f8c26d homepage-hero-full coh-style-padding-x-0 coh-style-hero-banner-overlay" > <div class="coh-container image overlay-grey coh-style-hero-picture-element coh-style-hero-banner-overlay" >    
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/full_hero_1392x940/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=9skRjxrp 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/full_hero_1392x940/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=9skRjxrp 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/full_hero_1392x940/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=9skRjxrp 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/page_hero_full_mobile/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=6CKIxtsP 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/page_hero_full_mobile/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=6CKIxtsP 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/page_hero_full_mobile/public/2022-05/26a26b3490e4c63f8e94e1c818b112b.jpg?h=728db98a&amp;itok=6CKIxtsP" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201410%20746&#039;%2F%3E" alt="A farmer in China" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div>       
+
+ <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;container&quot;}}"> <div class="coh-row-inner grid-x homepage-hero-content coh-style-margin-x-0"> <div class="coh-column coh-style-banner-padding-x-0 coh-visible-xs coh-col-xs-12 coh-col-xs-offset-0 coh-visible-sm coh-col-sm-9 coh-col-sm-offset-1 coh-visible-lg coh-col-lg-9 coh-col-lg-offset-1 coh-visible-xl coh-col-xl-7 coh-col-xl-offset-1" > <h1 class="coh-heading color-white dx8-aov slideInLeft" data-wow-duration="1.2s" data-wow-delay="0.1s"> Leave No One Behind </h1> <h4 class="coh-heading color-white dx8-aov slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s"> UNDP China </h4>   </div> </div> </div> </div>      
+              <div class="coh-container ssa-component coh-component ssa-component-instance-01cc1e52-0c8a-47b9-be3e-8e4ed087b8c4 coh-component-instance-01cc1e52-0c8a-47b9-be3e-8e4ed087b8c4 featured-stories" > <div class="coh-container featured-card-container" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner ">   <div class="coh-column feature__card-title coh-visible-xs coh-col-xs-12 coh-col-xs-offset-1 coh-visible-ps coh-col-ps-12 coh-col-ps-offset-1 coh-visible-sm coh-col-sm-3 coh-col-sm-offset-1 coh-visible-md coh-col-md-3 coh-col-md-offset-1 coh-visible-lg coh-col-lg-3 coh-col-lg-offset-1 coh-visible-xl coh-col-xl-3 coh-col-xl-offset-1" data-viewport="true" >    
+
+	<h2 >Featured<br />posts</h2>
+
+ </div>                           <div class="coh-column ssa-component coh-component ssa-component-instance-066439c7-7b25-4d31-881c-b0af676e90ad coh-component-instance-066439c7-7b25-4d31-881c-b0af676e90ad coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image  coh-col-xl" > <a href="https://www.undp.org/china/news/stockholm-conference-relevant-50-years" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=bHM9x5ZW 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=bHM9x5ZW 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=KlGjb2if 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=KlGjb2if 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=0GpZmHG4 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-06/Screenshot%20%28101%29.png?h=73a69e3b&amp;itok=0GpZmHG4" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20706%20518&#039;%2F%3E" alt="Op-Ed cover" title="Stockholm conference relevant 50 years on cover" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Op-Ed </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> 50 Years On, Time to Save Our Planet is Almost Up </h5>  <p class="coh-paragraph">Today, more than half the global economy and 1.2 billion jobs also depend on nature. So, 50 years on from the 1972 Stockholm Conference, the urgency of putting this into action－in policies and practices－is as pertinent as ever and indeed mounting.</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-2e9fefe5-6815-41ac-9b9e-1274471743e0 coh-component-instance-2e9fefe5-6815-41ac-9b9e-1274471743e0 coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image  coh-col-xl" > <a href="https://www.undp.org/china/press-releases/improving-water-safety-access-million-china-celebrating-15-years-undp-china-water-governance-programme" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=9QUXNGtC 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=9QUXNGtC 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=NPUQQ6oT 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=NPUQQ6oT 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=y_D9crmt 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-06/Water%20gov%20press%20release.png?h=89de6f1b&amp;itok=y_D9crmt" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201800%201376&#039;%2F%3E" alt="Water Governance Programme beneficaries" title="Press Release image" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Press Release </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Improving Water Safety &amp; Access for Million in China </h5>  <p class="coh-paragraph">Celebrating 15 Years of the UNDP-China Water Governance Programme</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read more <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-bf3c6a38-2f8a-4dd5-8e9a-98dcc70da466 coh-component-instance-bf3c6a38-2f8a-4dd5-8e9a-98dcc70da466 coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image green coh-col-xl" > <a href="/content/china/en/home/presscenter/pressreleases/2022/undp-and-unep-co-host-policy-dialogue-on-environmental-protectio.html" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=tgIbVtvW 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=tgIbVtvW 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=CKZCeQfM 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=CKZCeQfM 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=d82O0syx 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/S%2B50pressrelease_0.jpeg?h=1c9b88c9&amp;itok=d82O0syx" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201280%20853&#039;%2F%3E" alt="Beate Trankmann, Resident Representative UNDP China, delivers opening remarks at the Stockholm+50 National Stakeholder Consultation, Beijing" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Press Release </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Stockholm+50 Stakeholder Consultation </h5>  <p class="coh-paragraph">UNDP and UNEP co-host high-level policy dialogue ahead of Stockholm +50 international meeting in June</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read more <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-89f33da3-39e2-40b0-8de9-c09381f3cade coh-component-instance-89f33da3-39e2-40b0-8de9-c09381f3cade coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image green coh-col-xl" > <a href="/content/china/en/home/ourperspective/ourperspectivearticles/2022/gender-equality-today-for-a-better-tomorrow.html" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/gender.png?h=0cb0543c&amp;itok=jvU-uakW 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/gender.png?h=0cb0543c&amp;itok=jvU-uakW 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/gender.png?h=0cb0543c&amp;itok=1s9S_sg2 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/gender.png?h=0cb0543c&amp;itok=1s9S_sg2 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/png" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/gender.png?h=0cb0543c&amp;itok=7s652CGm 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/gender.png?h=0cb0543c&amp;itok=7s652CGm" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20699%20409&#039;%2F%3E" alt="Gender Equality Representation Image" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Op-Ed </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Gender Equality Today For a Better Tomorrow </h5>  <p class="coh-paragraph">UNDP China joins UN Women, UNEP, UNFPA, and IFAD in outlining five challenges for greater gender equality in the fight against climate change</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read More <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-e0a2c84e-2d6b-4f56-97ee-37b43231f84e coh-component-instance-e0a2c84e-2d6b-4f56-97ee-37b43231f84e coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image green coh-col-xl" > <a href="/china/blog/obstacles-and-opportunities-pathway-net-zero-private-sector-china" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=-BBT7Qk_ 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=-BBT7Qk_ 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=HzQvRVqZ 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=HzQvRVqZ 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=qhBZG0wT 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/pwcreport.jpeg?h=1c9b88c9&amp;itok=qhBZG0wT" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201280%20853&#039;%2F%3E" alt="Launch of the Pathway to Net Zero: SDG Practices of Enterprises in China Report in Beijing" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Blog </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Obstacles and Opportunities: The Pathway to Net-Zero for the Private Sector in China </h5>  <p class="coh-paragraph">UNDP China&#039;s latest blog explores the important role of the private sector in advancing a low-carbon transition</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read More <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-9ce64986-e7b0-43af-9071-23831741e164 coh-component-instance-9ce64986-e7b0-43af-9071-23831741e164 coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image green coh-col-xl" > <a href="https://www.youtube.com/watch?v=6FQfEw58XyA" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=zHk06Ja5 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=zHk06Ja5 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=xG338LIS 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=xG338LIS 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=2UK4v4VW 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/DptCFkNU0AIeOJ1.jpeg?h=a9b1ba5e&amp;itok=2UK4v4VW" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201024%20705&#039;%2F%3E" alt="Two farmers in China bag up small pumpkins" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Video </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Year In Review: 2021 </h5>  <p class="coh-paragraph">Last year, UNDP China continued its work to achieve the SDGs, protect the planet, and leave no one behind</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Watch <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+                        <div class="coh-column ssa-component coh-component ssa-component-instance-68e637a0-e72b-4230-92aa-40aa6dec50cf coh-component-instance-68e637a0-e72b-4230-92aa-40aa6dec50cf coh-col-xs-12 coh-col-sm-4 coh-col-md-4 coh-col-lg-4 coh-col-xl-4 feature__card image green coh-col-xl" > <a href="/china/blog/cimate-action-5-steps-our-office-taking" class="coh-link coh-style-cta-link-cta--arrow" target="_self" >  <div class="coh-inline-element feature__card-slide coh-style-feature-card-slide"> <div class="coh-inline-element feature__card-image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 1441px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=bKpwcaoJ 1x"/>
+              <source srcset="" media="all and (max-width: 1440px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_699_x_306_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=bKpwcaoJ 1x"/>
+              <source srcset="" media="all and (max-width: 1024px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=QMcVXtXm 1x"/>
+              <source srcset="" media="all and (max-width: 768px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_card_tablet_699_x_306_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=QMcVXtXm 1x"/>
+              <source srcset="" media="all and (max-width: 640px)" type="image/jpeg" data-srcset="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=ER6Z7CEO 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/featured_content_card_mobile_343_x_150_/public/2022-05/cq5dam.web_.1280.1280_17.jpeg?itok=ER6Z7CEO" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201280%20960&#039;%2F%3E" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+ </div> </div>  <article class="coh-inline-element feature__card-content coh-ce-cpt_homepage_discover_more-f250f3"><h6 class="coh-heading"> Blog </h6>  <div class="coh-inline-element feature__card-description"><h5 class="coh-heading"> Climate Action? 5 Steps our Office is Taking! </h5>  <p class="coh-paragraph">See how UNDP China is walking the talk on going low-carbon</p> </div>    <span class="coh-inline-element cta__link cta--arrow">Read <i class="coh-inline-element"></i> </span>  </article> </a> </div>  
+   </div> </div> </div> </div> 
+            <div class="coh-container ssa-component coh-component ssa-component-instance-9d7a01ec-eab2-4795-8219-dd709deaef68 coh-component-instance-9d7a01ec-eab2-4795-8219-dd709deaef68 align-center heading-big" data-color="blue" data-viewport="true" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner"> <div class="coh-column coh-visible-xs coh-col-xs-12 coh-col-xs-offset-0 coh-visible-ps coh-col-ps-12 coh-col-ps-offset-0 coh-visible-sm coh-col-sm-4 coh-col-sm-offset-1 coh-visible-md coh-col-md-4 coh-col-md-offset-1 coh-visible-lg coh-col-lg-4 coh-col-lg-offset-1 coh-visible-xl coh-col-xl-4 coh-col-xl-offset-1" > <h2 class="coh-heading"> What we do </h2> </div> <div class="coh-column coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-6 coh-visible-md coh-col-md-6 coh-visible-lg coh-col-lg-6 coh-visible-xl coh-col-xl-6" > <div class="coh-wysiwyg coh-style-heading-big-wyswyg">    <h4>UNDP assists China in integrating the Sustainable Development Goals (SDGs) into development decisions, promotes the transition to an inclusive, low-carbon economy and a sustainable society, protects biodiversity, and informs China’s international development cooperation engagement to advance global progress on the SDGs and the Paris Climate Agreement.</h4>
+ </div> </div> </div> </div> </div> 
+                   <div class="coh-row ssa-component coh-component ssa-component-instance-43512091-7bfd-4ac3-b9ff-d5d03a100035 coh-component-instance-43512091-7bfd-4ac3-b9ff-d5d03a100035 coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner wide-card-heading"> <div class="coh-column coh-visible-xs coh-col-xs-12 coh-col-xs-offset-0 coh-visible-ps coh-col-ps-12 coh-col-ps-push-0 coh-col-ps-pull-0 coh-col-ps-offset-0 coh-visible-sm coh-col-sm-12 coh-col-sm-offset-0 coh-visible-md coh-col-md-11 coh-col-md-offset-1 coh-visible-lg coh-col-lg-11 coh-col-lg-offset-1 coh-visible-xl coh-col-xl-11 coh-col-xl-offset-1" >   <h2 class="coh-heading coh-ce-cpt_page_wide_featured_content_c-107fe78a" data-viewport="true"> Featured </h2>  </div> </div> </div> <div class="coh-container ssa-component coh-component ssa-component-instance-43512091-7bfd-4ac3-b9ff-d5d03a100035 coh-component-instance-43512091-7bfd-4ac3-b9ff-d5d03a100035 wide-card coh-ce-cpt_page_wide_featured_content_c-bab7d78c" > <h6 class="coh-heading" data-viewport="true"> Report </h6> <div class="coh-container" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner wide-card__wrapper coh-style-margin-x-0 coh-ce-cpt_page_wide_featured_content_c-f688f4ff"> <div class="coh-column wide-card__description coh-style-padding-x-0 coh-ce-cpt_page_wide_featured_content_c-640f2f70 coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-6 coh-visible-md coh-col-md-6 coh-visible-lg coh-col-lg-6 coh-visible-xl coh-col-xl-6" data-viewport="true" >  <div class="coh-inline-element card-summary"><h4 class="coh-heading">  <a class="coh-inline-element coh-ce-cpt_page_wide_featured_content_c-a6077034" href="https://undp-asia-pacific.shorthandstories.com/china-green-development/">China&#039;s Green Development: Key Takeaways From 2021</a> </h4>  <p class="coh-paragraph"> <a class="coh-inline-element coh-ce-cpt_page_wide_featured_content_c-638c623c" href="https://undp-asia-pacific.shorthandstories.com/china-green-development/">Fighting both climate change and biodiversity loss is critical to protecting people and planet, and achieving the Sustainable Development Goals (SDGs). To this end, China’s green development has the potential to make significant contributions to both domestic and global efforts.
+
+In 2021, UNDP China convened several policy dialogues and published a number of policy and issue briefs analyzing newly released policy documents including China&#039;s 14th Five-Year Plan, which will shape China&#039;s green development for years to come.
+
+Here, we sum up the main takeaways and insights from these briefs as well as key recommendations moving forward.</a> </p> </div> <a href="https://undp-asia-pacific.shorthandstories.com/china-green-development/" class="coh-link button button-primary button-arrow" target="_self" > Report    </a> </div> <div class="coh-column wide-card__image yellow coh-style-padding-x-0 coh-ce-cpt_page_wide_featured_content_c-77a3a22c coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-6 coh-visible-md coh-col-md-6 coh-visible-lg coh-col-lg-6 coh-visible-xl coh-col-xl-6" > <a href="https://undp-asia-pacific.shorthandstories.com/china-green-development/" class="coh-link coh-ce-cpt_page_wide_featured_content_c-c88fd580" target="_self" >    
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading"><img alt="China&#039;s Green Development: Key Takeaways" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/pagewide_704_x_488/public/2022-05/China%27s%20Green%20Development.jpg?h=ef709da8&amp;itok=OqJ2dIw-" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20704%20488&#039;%2F%3E" width="704" height="488" typeof="foaf:Image" />
+        </div>
+        
+  
+
+
+ </a> </div> </div> </div> </div> </div> 
+               <div class="coh-column ssa-component coh-component ssa-component-instance-a9573a65-94f0-4378-8864-64ec9d965b1b coh-component-instance-a9573a65-94f0-4378-8864-64ec9d965b1b     our-impact-title side-content coh-col-xl" data-viewport="true" >           <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-d4ee7e90-0370-4cfe-bb93-6ffb36c6544b coh-component-instance-d4ee7e90-0370-4cfe-bb93-6ffb36c6544b">    <h2>Our impact</h2>
+ </div> 
+   </div> 
+           <div class="coh-container ssa-component coh-component ssa-component-instance-60329107-2c81-411d-92b9-594ae3d3c20b coh-component-instance-60329107-2c81-411d-92b9-594ae3d3c20b stats-cards-two-row" > <div class="coh-container yellow stats-card-slider" data-swiper-mobile="true" >  <div class="coh-inline-element swiper-scrollbar"> <div class="coh-inline-element swiper-scrollbar-drag"></div> </div>  <div class="coh-inline-element swiper-wrapper yellow">              <div class="coh-inline-element ssa-component coh-component ssa-component-instance-e07a4567-2b89-4e60-9b36-51f3aaa85e49 coh-component-instance-e07a4567-2b89-4e60-9b36-51f3aaa85e49 stats-card-parallax parallax-slide" data-parallax-leftoffset="70" data-parallax-rightoffset="11">              <div class="coh-inline-element ssa-component coh-component ssa-component-instance-660820f8-7104-479d-ac8a-5d3c3be15173 coh-component-instance-660820f8-7104-479d-ac8a-5d3c3be15173 stats-card medium green swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 57 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> million tonnes </h4>  <p class="coh-paragraph">cumulative greenhouse gas emissions cut (2016-21)</p> </div> </div> 
+             <div class="coh-inline-element ssa-component coh-component ssa-component-instance-365954e8-4a15-4052-8d1f-73a49c530d0b coh-component-instance-365954e8-4a15-4052-8d1f-73a49c530d0b stats-card medium blue swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 31.3 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> million </h4>  <p class="coh-paragraph">people given access to clean water (since 2011)</p> </div> </div> 
+             <div class="coh-inline-element ssa-component coh-component ssa-component-instance-28533059-558e-495f-b1c8-1095b8fc2c13 coh-component-instance-28533059-558e-495f-b1c8-1095b8fc2c13 stats-card medium green swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 1.9 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> million </h4>  <p class="coh-paragraph">Hectares of land included as Protected Areas (as of 2019)</p> </div> </div> 
+   </div> 
+             <div class="coh-inline-element ssa-component coh-component ssa-component-instance-3ae89e84-985d-4d69-b4a4-884b23ace186 coh-component-instance-3ae89e84-985d-4d69-b4a4-884b23ace186 stats-card-parallax parallax-slide" data-parallax-leftoffset="70" data-parallax-rightoffset="11">              <div class="coh-inline-element ssa-component coh-component ssa-component-instance-339eca86-7a6e-4a14-a49f-ec8730f100a5 coh-component-instance-339eca86-7a6e-4a14-a49f-ec8730f100a5 stats-card medium yellow swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 30 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> % </h4>  <p class="coh-paragraph">of HCFC Consumption phased-out</p> </div> </div> 
+             <div class="coh-inline-element ssa-component coh-component ssa-component-instance-aec2894e-8ee8-4537-9168-ad89fb3d837a coh-component-instance-aec2894e-8ee8-4537-9168-ad89fb3d837a stats-card medium blue swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 113 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> billion </h4>  <p class="coh-paragraph">Litres of water saved (since 2011)</p> </div> </div> 
+             <div class="coh-inline-element ssa-component coh-component ssa-component-instance-2664d816-3e19-418c-97b3-23ce2d37f3eb coh-component-instance-2664d816-3e19-418c-97b3-23ce2d37f3eb stats-card medium red swiper-slide"> <div class="coh-inline-element">   <div class="coh-inline-element">  <h2 class="coh-heading"> 5 </h2>  </div> </div>  <div class="coh-inline-element"><h4 class="coh-heading"> billion RMB </h4>  <p class="coh-paragraph">SDG Bond issued with NDB</p> </div> </div> 
+   </div> 
+   </div> </div> </div> 
+             <div class="coh-container ssa-component coh-component ssa-component-instance-22475c41-c34d-40d8-b437-739ac1cdb131 coh-component-instance-22475c41-c34d-40d8-b437-739ac1cdb131 custom-space" > <h2 class="coh-heading coh-ce-cpt_generic_container-94a99708">  </h2> <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner ">                 <div class="coh-column ssa-component coh-component ssa-component-instance-ad1f9e77-5f87-45ce-af34-5ed7f6adeb0a coh-component-instance-ad1f9e77-5f87-45ce-af34-5ed7f6adeb0a coh-visible-xs coh-col-xs-12 coh-visible-sm coh-col-sm-12 coh-visible-md coh-col-md-12 coh-visible-lg coh-col-lg-12 coh-visible-xl coh-col-xl-12 reveal-head side-content coh-col-xl" data-viewport="true" >           <div class="coh-wysiwyg ssa-component coh-component ssa-component-instance-2c6e81e9-9add-4b51-b6cc-9e822fc50bb4 coh-component-instance-2c6e81e9-9add-4b51-b6cc-9e822fc50bb4">    <h2>Take action</h2>
+ </div> 
+   </div> 
+                     <div class="coh-column ssa-component coh-component ssa-component-instance-0d3ab517-f10e-4b3c-ac4a-425c1afc240e coh-component-instance-0d3ab517-f10e-4b3c-ac4a-425c1afc240e medium-4 image-reveal-card coh-style-image-reveal-card dx8-aov slideInLeft coh-ce-cpt_image_reveal_card-bd14853c coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-4 coh-visible-md coh-col-md-4 coh-visible-lg coh-col-lg-4 coh-visible-xl coh-col-xl-4" data-wow-duration="1.2s" data-wow-delay="0.2s" > <a href="https://www.undp.org/china/careers" class="coh-link" target="_self" >  <div class="coh-inline-element image-reveal-card__content blue"> <div class="coh-inline-element image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading"><img alt="Group of UNDP China staff &amp; youth participants jump in the air" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/image_reveal_card_453_x_490_/public/2022-05/thumbnailaa.jpg?h=e7db916a&amp;itok=1Jx_q5G1" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20453%20490&#039;%2F%3E" width="453" height="490" typeof="foaf:Image" />
+        </div>
+        
+  
+
+
+ </div> <h5 class="coh-heading"> Interested in working for UNDP in China? Check out our job opportunities </h5> </div>  <span class="coh-inline-element cta__link cta--arrow">Join Us <i class="coh-inline-element"></i> </span> </a> </div>    
+                     <div class="coh-column ssa-component coh-component ssa-component-instance-01c263a5-9264-4bf1-8715-fa62324618ad coh-component-instance-01c263a5-9264-4bf1-8715-fa62324618ad medium-4 image-reveal-card coh-style-image-reveal-card dx8-aov slideInLeft coh-ce-cpt_image_reveal_card-bd14853c coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-4 coh-visible-md coh-col-md-4 coh-visible-lg coh-col-lg-4 coh-visible-xl coh-col-xl-4" data-wow-duration="1.2s" data-wow-delay="0.2s" > <a href="content/china/en/home/ourwork/our_campaigns/undp-animal-ambassadors-for-the-sdgs.html" class="coh-link" target="_self" >  <div class="coh-inline-element image-reveal-card__content "> <div class="coh-inline-element image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading"><img class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/image_reveal_card_453_x_490_/public/2022-05/Photo%203.jpg?h=5d1b7b0f&amp;itok=zcgY4x1o" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20453%20490&#039;%2F%3E" width="453" height="490" typeof="foaf:Image" />
+        </div>
+        
+  
+
+
+ </div> <h5 class="coh-heading"> Learn more about UNDP China&#039;s innovation and advocacy campaigns </h5> </div>  <span class="coh-inline-element cta__link cta--arrow">Engage <i class="coh-inline-element"></i> </span> </a> </div>    
+                     <div class="coh-column ssa-component coh-component ssa-component-instance-fb737e90-7ef9-4a76-904f-598d30e7d14b coh-component-instance-fb737e90-7ef9-4a76-904f-598d30e7d14b medium-4 image-reveal-card coh-style-image-reveal-card dx8-aov slideInLeft coh-ce-cpt_image_reveal_card-bd14853c coh-visible-xs coh-col-xs-12 coh-visible-ps coh-col-ps-12 coh-visible-sm coh-col-sm-4 coh-visible-md coh-col-md-4 coh-visible-lg coh-col-lg-4 coh-visible-xl coh-col-xl-4" data-wow-duration="1.2s" data-wow-delay="0.2s" > <a href="https://twitter.com/UNDPChina/" class="coh-link" target="_self" >  <div class="coh-inline-element image-reveal-card__content "> <div class="coh-inline-element image">   
+  
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--image is-b-loading"><img class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/g/files/zskgke326/files/styles/image_reveal_card_453_x_490_/public/2022-05/%E6%BE%B6%EE%9C%89over02_0.jpg?h=a2e5829f&amp;itok=1LmubJTX" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20453%20490&#039;%2F%3E" width="453" height="490" typeof="foaf:Image" />
+        </div>
+        
+  
+
+
+ </div> <h5 class="coh-heading"> Talk to us and help us advocate for change </h5> </div>  <span class="coh-inline-element cta__link cta--arrow">Connect <i class="coh-inline-element"></i> </span> </a> </div>    
+   </div> </div> </div> 
+ 
+</div>
+      
+	</div>
+</div>
+
+  </div>
+<div id="block-undpsolrsearch" data-block-plugin-id="undp_solr_search_block" class="settings-tray-editable" data-drupal-settingstray="editable">
+  
+    
+      
+
+<section id="modal-popular-search" class="menu-modal modal-popular-search hide">
+  <div class="modal-content" data-modal-search="">
+    <div class="modal-body grid-container">
+      <div class="results-and-filters-container">
+        <div class="search-filters">
+          <div class="mobile-filters-open">
+            <button class="btn blue">Filters
+              <span class="counter"></span>
+            </button>
+          </div>
+                                    <div class="hidden block-facet--checkbox" data-drupal-block-facet-id="content_type_ajax" data-block-plugin-id="facet_block:content_type_ajax">
+  
+    
+      <div class="block-facet__wrapper facet-inactive hidden block-facets-ajax js-facet-block-id-facet-block--content-type-ajax" id="facet-block-content-type-ajax"><div data-drupal-facet-id="content_type_ajax" class="facet-empty facet-hidden"><div class="facets-widget-checkbox" data-multi-select>
+			
+	</div>
+</div>
+</div>
+
+  </div>
+
+                                <ul>
+            <li class="facet-item country-checkbox" tabindex="0">
+              <input type="checkbox" checked />
+              <span class="checkmark"></span>
+              Search UNDP<label class="country-name"></label> only
+            </li>
+          </ul>
+          <div class="active-filters"></div>
+          <div class="mobile-filters-close">
+            <button class="btn">Hide Filters</button>
+          </div>
+        </div>
+      <div class="search-results">
+        <div class="grid-x grid-margin-x">
+          <div class="cell">
+            <div class="search-input big-search">
+              <div class="icon">
+                <span class="search-icon"> </span>
+              </div>
+              <div class="views-element-container"><div class="js-view-dom-id-a50c1c5673569f992ffcfba04f3531e5ca5a590237d8a040ba99b5df061a6cc7">
+  
+  
+  
+
+  
+  <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit-full-form="" data-bef-auto-submit="" data-bef-auto-submit-delay="1000" data-drupal-selector="views-exposed-form-acquia-search-block-1" action="/china" method="get" id="views-exposed-form-acquia-search-block-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search form-item-search">
+      <label for="edit-search--2">Search</label>
+        <input autocomplete="off" data-drupal-selector="edit-search" type="text" id="edit-search--2" name="search" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-group-id form-item-group-id">
+      <label for="edit-group-id--2">Group</label>
+        <select data-drupal-selector="edit-group-id" id="edit-group-id--2" name="group_id" class="form-select"><option value="241" selected="selected">China</option><option value="">Global</option></select>
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-media-group-id form-item-media-group-id">
+      <label for="edit-media-group-id--2">Media group</label>
+        <select data-drupal-selector="edit-media-group-id" id="edit-media-group-id--2" name="media_group_id" class="form-select"><option value="241" selected="selected">China</option><option value="">Global</option></select>
+        </div>
+<input readonly="readonly" data-group-name="China" disabled data-drupal-selector="edit-current-group-name" type="hidden" name="current_group_name" value="" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-bef-auto-submit-click="" class="js-hide button js-form-submit form-submit" data-drupal-selector="edit-submit-acquia-search-2" type="submit" id="edit-submit-acquia-search--2" value="Search" />
+</div>
+
+
+</form>
+
+  
+
+      
+
+
+  
+    
+
+  
+  
+</div>
+</div>
+
+              <a class="search-clear" role="button">
+                <span class="search-close"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+                        <div class="popular-search-wrapper popular-search-blocks">
+            <div class="popular-search-container">
+              <div class="grid-x grid-margin-x" data-search-results>
+                                  <div class="cell medium-6 list-quicklinks">
+                    <div class="quick-links-search">
+</div>
+                  </div>
+                                                  <div class="cell medium-6 list-quicklinks">
+                    <div class="popular-search-key"><h3>Popular Search </h3>
+<ul class="most-searched-keyword">
+      <li data-id="covid-19 impact assessment" tabindex="0">
+        covid-19 impact assessment    </li>
+      <li data-id="environmental" tabindex="0">
+        environmental    </li>
+      <li data-id="environmental aid" tabindex="0">
+        environmental aid    </li>
+      <li data-id="bri and sdg" tabindex="0">
+        bri and sdg    </li>
+    </ul>
+</div>
+                  </div>
+                              </div>
+            </div>
+          </div>
+              
+    </div>
+  </div>
+</section>
+
+  </div>
+
+<div class="country-switcher-ajax-wrapper"></div>
+  </div>
+
+    </div>
+    
+    
+  </main>
+
+
+      <footer role="contentinfo" class="footer">
+          
+
+<span class="hide" data-arrow-external>
+  <img src="/themes/custom/undpglobal/design-system/images/external-default.svg" alt>
+</span>
+
+  <div class="coh-row coh-row-xl coh-row-visible-xl">
+  <div class="coh-row-inner align-content-middle">
+      <div class="coh-column coh-col-md-10 coh-col-lg-10 coh-col-sm-10 coh-col-xl-10 coh-col-xs-12 coh-col-ps-12 coh-col-md-offset-1 coh-col-sm-offset-1 coh-col-xs-offset-0 coh-col-lg-offset-1 coh-col-xl-offset-1">
+        <div class="coh-row-inner footer-head">
+          <div class="coh-column coh-col-md-5 coh-col-lg-5 coh-col-xl-5 coh-col-sm-5 coh-col-xs-12 coh-col-ps-12">
+            <div class="footer-logo">
+              <a href="https://www.undp.org/">
+                <img
+                  src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-white.svg"
+                  alt="UNDP logo" 
+                />
+              </a>
+              <h5 tabindex="0">
+                <p>United Nations</p>
+
+<p>Development Programme</p>
+
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="coh-row coh-row-xl coh-row-visible-xl">
+          <div class="coh-row-inner align-content-middle" data-accordion="mobile">
+                    <div class="coh-column coh-col-md-2 coh-col-lg-2 coh-col-xl-2 coh-col-sm-2 coh-col-xs-12 coh-col-ps-12 footer-item">
+              <button
+                type="button"
+                id="footer-item-1"
+                class="footer-heading desktop-event-none"
+                tabindex="0"
+                aria-controls="footer-panel-1"
+                aria-expanded="false">
+                Who we are
+              </button>
+                            <div id="footer-panel-3" class="footer-panel desktop-visible"
+                aria-label="footer-item-3" aria-hidden="false" role="region">
+                                <a class="footer-menu-item light" href="/china/about-us-0">
+                About us 
+                </a>
+                                <a class="footer-menu-item light" href="/china/our-team-0">
+                Our Team
+                </a>
+                                <a class="footer-menu-item light" href="/china/legal-framework-0">
+                Legal Framework 
+                </a>
+                                <a class="footer-menu-item light" href="/china/funding">
+                Funding
+                </a>
+                                <a class="footer-menu-item light" href="/china/our-partners">
+                Our Partners
+                </a>
+                              </div>
+                          </div>
+                    <div class="coh-column coh-col-md-2 coh-col-lg-2 coh-col-xl-2 coh-col-sm-2 coh-col-xs-12 coh-col-ps-12 footer-item">
+              <button
+                type="button"
+                id="footer-item-2"
+                class="footer-heading desktop-event-none"
+                tabindex="0"
+                aria-controls="footer-panel-1"
+                aria-expanded="false">
+                What we do
+              </button>
+                            <div id="footer-panel-3" class="footer-panel desktop-visible"
+                aria-label="footer-item-3" aria-hidden="false" role="region">
+                                <a class="footer-menu-item light" href="/china/our-focus-0">
+                Our Focus
+                </a>
+                                <a class="footer-menu-item light" href="/china/sustainable-development-goals">
+                Sustainable Development Goals
+                </a>
+                              </div>
+                          </div>
+                    <div class="coh-column coh-col-md-2 coh-col-lg-2 coh-col-xl-2 coh-col-sm-2 coh-col-xs-12 coh-col-ps-12 footer-item">
+              <button
+                type="button"
+                id="footer-item-3"
+                class="footer-heading desktop-event-none"
+                tabindex="0"
+                aria-controls="footer-panel-1"
+                aria-expanded="false">
+                Our Impact
+              </button>
+                            <div id="footer-panel-3" class="footer-panel desktop-visible"
+                aria-label="footer-item-3" aria-hidden="false" role="region">
+                                <a class="footer-menu-item light" href="/china/news-centre">
+                News Centre
+                </a>
+                                <a class="footer-menu-item light" href="/china/publications">
+                Publications
+                </a>
+                                <a class="footer-menu-item light" href="/china/projects">
+                Projects
+                </a>
+                                <a class="footer-menu-item light" href="/china/blogs">
+                Blogs
+                </a>
+                              </div>
+                          </div>
+                    <div class="coh-column coh-col-md-2 coh-col-lg-2 coh-col-xl-2 coh-col-sm-2 coh-col-xs-12 coh-col-ps-12 footer-item">
+              <button
+                type="button"
+                id="footer-item-4"
+                class="footer-heading desktop-event-none"
+                tabindex="0"
+                aria-controls="footer-panel-1"
+                aria-expanded="false">
+                Get involved
+              </button>
+                            <div id="footer-panel-3" class="footer-panel desktop-visible"
+                aria-label="footer-item-3" aria-hidden="false" role="region">
+                                <a class="footer-menu-item light" href="/china/careers">
+                Careers
+                </a>
+                                <a class="footer-menu-item light" href="/china/procurement">
+                Procurement
+                </a>
+                                <a class="footer-menu-item light" href="/china/contact-us-0">
+                Contact Us
+                </a>
+                              </div>
+                          </div>
+                    <div class="coh-column coh-col-md-4 coh-col-lg-4 coh-col-sm-4 coh-col-xs-12 coh-col-xl-4">
+              <div class="icons-search">
+                <span class="icon-globe">
+                  <img src="/themes/custom/undpglobal/design-system/images/globe-white.svg" alt="icon-global" width='24px' height='24px' />
+                </span>
+                <a class="icon" href="#" aria-label="Search" data-modal-open="" data-modal="modal-popular-search">
+                  <img src="/themes/custom/undpglobal/design-system/images/search-white.svg" alt="icon-search" width='24px' height='24px' />
+                </a>
+              </div>
+              <ul class="footer-links">
+                                <li><a href="https://www.undp.org/accountability/audit/investigations">Report Fraud, Abuse, Misconduct</a></li>
+                                <li><a href="https://www.undp.org/social-and-environmental-compliance-review-and-stakeholder-response-mechanism">Submit social or environmental link</a></li>
+                                <li><a href="https://www.undp.org/scam-alert">Scam alert</a></li>
+                                <li><a href="https://www.undp.org/copyright-terms-use">Terms of Use</a></li>
+                              </ul>
+                            <ul class="footer-icons">
+                <div class="views-element-container settings-tray-editable" id="block-views-block-group-footer-social-links-block-1" data-block-plugin-id="views_block:group_footer_social_links-block_1" data-drupal-settingstray="editable">
+  
+    
+      <div><div class="js-view-dom-id-be951de302f94efc18e2eabe0c64f5395a4194f218e3501df8874ae52a304359">
+  
+  
+  
+
+  
+  
+  
+
+  <div>
+  
+  <ul class="footer-icons">
+
+          <li><a href="https://twitter.com/UNDPChina" title="Twitter" class="twitter">
+</a></li>
+          <li><a href="https://www.cn.undp.org/content/china/en/home/presscenter/articles/2013/08/join-undp-china-on-wechat-.html" title="WeChat" class="wechat">
+</a></li>
+          <li><a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&amp;a=enter&amp;url=https%3A//weibo.com/undpchina&amp;domain=.weibo.com&amp;ua=php-sso_sdk_client-0.6.36&amp;_rand=1653367632.0753" title="Weibo" class="weibo">
+</a></li>
+          <li><a href="https://space.bilibili.com/1683653830?spm_id_from=333.337.0.0" title="BiliBili" class="youtube">
+</a></li>
+          <li><a href="https://www.youtube.com/channel/UCg7k5lq70_QJnMcq_lnNHgA" title="YouTube" class="youtube">
+</a></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+              </ul>
+                          </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+                                <p tabindex="0">© 2022 United Nations Development Programme</p>
+                            </div>
+    </div>
+  </div>
+
+
+    </footer>
+  
+</div>
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"group\/241","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany,better_exposed_filters\/auto_submit,better_exposed_filters\/general,blazy\/blazy,blazy\/classlist,blazy\/load,blazy\/polyfill,blazy\/promise,blazy\/raf,blazy\/webp,cohesion\/coh-module,cohesion\/coh-theme,cohesion\/element_templates.link,cohesion\/element_templates.row-for-columns,cohesion\/global_libraries.animateonview,cohesion\/global_libraries.cohMatchHeights,cohesion\/global_libraries.parallax_scrolling,cohesion\/global_libraries.windowscroll,cohesion_theme\/global-styling,core\/picturefill,extlink\/drupal.extlink,facets\/drupal.facets.checkbox-widget,facets\/drupal.facets.views-ajax,moderated_content_bulk_publish\/moderated-content-bulk-publish,social_media_links\/social_media_links.theme,system\/base,undp_custom\/mylib,undp_custom\/undp_ckeditor_custom,undp_custom\/undp_get_menu_script,undpglobal\/global-scripts,undpglobal\/global-styling,undpglobal\/gsap,undpglobal\/swiperjs,views\/views.module,views_infinite_scroll\/views-infinite-scroll","theme":"undpglobal","theme_token":null},"ajaxTrustedUrl":{"\/china":true},"cohesion":{"google_map_api_key":"","google_map_api_key_geo":null,"animate_on_view_mobile":"DISABLED","add_animation_classes":"DISABLED","responsive_grid_settings":{"gridType":"desktop-first","columns":12,"breakpoints":{"xl":{"width":1440,"innerGutter":24,"outerGutter":24,"widthType":"fixed","previewColumns":12,"label":"Television","class":"coh-icon-television","iconHex":"F26C","boxedWidth":1392},"lg":{"width":1200,"innerGutter":24,"outerGutter":24,"widthType":"fluid","previewColumns":12,"label":"Desktop","class":"coh-icon-desktop","iconHex":"F108","boxedWidth":1152},"md":{"width":1025,"innerGutter":24,"outerGutter":24,"widthType":"fixed","previewColumns":12,"label":"Laptop","class":"coh-icon-laptop","iconHex":"F109","boxedWidth":977},"sm":{"width":768,"innerGutter":24,"outerGutter":24,"widthType":"fluid","previewColumns":6,"label":"Tablet","class":"coh-icon-tablet","iconHex":"F10A","boxedWidth":720},"ps":{"width":481,"innerGutter":12,"outerGutter":12,"widthType":"fluid","previewColumns":6,"label":"Mobile landscape","class":"coh-icon-mobile-landscape","iconHex":"E91E","boxedWidth":457},"xs":{"innerGutter":12,"outerGutter":12,"previewColumns":6,"label":"Mobile","class":"coh-icon-mobile","iconHex":"F10B","boxedWidth":296,"width":320,"widthType":"fluid","mobilePlaceholderWidth":320,"mobilePlaceholderType":"fluid"}}},"use_dx8":true,"sidebar_view_style":"thumbnails","log_dx8_error":false,"error_url":"\/cohesionapi\/logger\/jserrors","dx8_content_paths":[["settings","content"],["settings","content","text"],["settings","markerInfo","text"],["settings","title"],["markup","prefix"],["markup","suffix"],["markup","attributes",["value"]],["hideNoData","hideData"],["hideNoData","hideData","text"]],"urls":{"component-categories":{"url":"\/cohesionapi\/element_categories\/component","method":"GET"},"helper-categories":{"url":"\/cohesionapi\/element_categories\/helper","method":"GET"},"element-save":{"url":"\/cohesionapi\/element-save","method":"POST"},"sidebar-edit":{"url":"\/admin\/cohesion\/components\/sidebar-edit?coh_clean_page=true","method":"GET"},"component-content-by-id":{"url":"\/cohesionapi\/component-contents-ids","method":"GET"},"cohesion-component":{"url":"\/cohesionapi\/cohesion-components","method":"GET"},"helper-updated":{"url":"\/cohesionapi\/cohesion-helper-updated","method":"GET"},"component-add":{"url":"\/admin\/cohesion\/components\/components\/add","method":"GET"},"helper-add":{"url":"\/admin\/cohesion\/helpers\/helpers\/add","method":"GET"},"component-content-add":{"url":"\/admin\/cohesion\/components\/component_contents","method":"GET"},"component-elements-list":{"url":"\/cohesionapi\/element-group-info?entity_type=cohesion_component\u0026entity_type_access=group\u0026bundle_access=group_sites","method":"GET"},"component-content-elements-list":{"url":"\/cohesionapi\/component-contents","method":"GET"},"elements-list":{"url":"\/cohesionapi\/element\/elements?withcategories=1\u0026entityTypeId=group\u0026isCustom=","method":"GET"},"helpers-elements-list":{"url":"\/cohesionapi\/element-group-info?entity_type=cohesion_helper\u0026access_elements=false","method":"GET"},"sitestudio-page-builder.layout_canvas.build":{"url":"\/cohesionapi\/page-builder\/build\/group\/241?coh_clean_page=true","method":"POST"},"frontend-builder-save":{"url":"\/cohesionapi\/fontend-builder\/save","method":"POST"},"frontend-builder-js":{"url":"\/sites\/g\/files\/zskgke326\/files\/cohesion\/scripts\/dx8\/app.js","method":"GET"},"visual-page-builder-element-js-loader":[{"url":"\/sites\/g\/files\/zskgke326\/files\/cohesion\/scripts\/visual_page_builder_element_js_loader\/state.responsiveTabs.js","method":"GET"},{"url":"\/sites\/g\/files\/zskgke326\/files\/cohesion\/scripts\/visual_page_builder_element_js_loader\/state.slick.js","method":"GET"},{"url":"\/sites\/g\/files\/zskgke326\/files\/cohesion\/scripts\/visual_page_builder_element_js_loader\/state.read-more.js","method":"GET"}]},"imageBrowser":{"url":"\/entity-browser\/modal\/image_browser?uuid=dx8\u0026group=241","title":"Entity Browser"},"permissions":[]},"entity_browser":{"dx8":{"count":1,"cardinality":1}},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"menu_gid":"241","blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:a50c1c5673569f992ffcfba04f3531e5ca5a590237d8a040ba99b5df061a6cc7":{"view_name":"acquia_search","view_display_id":"block_1","view_args":"","view_path":"\/group\/241","view_base_path":"search","view_dom_id":"a50c1c5673569f992ffcfba04f3531e5ca5a590237d8a040ba99b5df061a6cc7","pager_element":0}}},"facets_views_ajax":{"content_type_ajax":{"view_id":"acquia_search","current_display_id":"block_1","view_base_path":"search","ajax_path":"\/views\/ajax"}},"ajax":[],"user":{"uid":0,"permissionsHash":"881868a80a07359ee5c7b8f50910158f4ff1a070a84191054c8ec9ead4e80e01"}}</script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?rg3l5w"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.3.6"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.3.6"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?rg3l5w"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.3.6"></script>
+<script src="/core/misc/drupal.js?v=9.3.6"></script>
+<script src="/core/misc/drupal.init.js?v=9.3.6"></script>
+<script src="/core/misc/debounce.js?v=9.3.6"></script>
+<script src="/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.3"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.loading.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?rg3l5w"></script>
+<script src="/modules/contrib/blazy/js/blazy.load.min.js?rg3l5w"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.2.1"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/modules/contrib/addtoany/js/addtoany.js?v=9.3.6"></script>
+<script src="/modules/contrib/moderated_content_bulk_publish/js/moderated_content_bulk_publish.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/undp.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/resize.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/viewport.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/lib/glightbox.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/accordion.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/animation.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/author-filter.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/download-modal.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/filter-search-bar.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/fitText.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/lang-switcher.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/lazyload.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/lightbox-gallery.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/modal.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/multi-select.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/navigation.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/parallax.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/scrolling-progress-bar.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/sdg-modal.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/select.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/sidebar.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/smartresize.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/smooth-bg-change.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/stats.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/sticky.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/swiper.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/design-system/js/tabs.min.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/main.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/search.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/facet.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/location-filters.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/sdg-modal.js?rg3l5w"></script>
+<script src="/themes/custom/undpglobal/js/author-listing.js?rg3l5w"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.3.6"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.3.6"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/matchHeight/jquery.matchHeight.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/responsiveJs/responsive-js.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/cohContainerMatchHeights/coh-container-match-heights.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/row-for-columns/row-for-columns.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/parallax_scrolling/jquery.paroller.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/parallax_scrolling/init.paroller.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/link/jquery.scrollTo.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/link/link.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/windowscroll/coh-scroll.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/cohMatchHeights/coh-match-heights.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/animateonview/wow.min.js?rg3l5w"></script>
+<script src="/sites/g/files/zskgke326/files/cohesion/scripts/animateonview/wow.init.js?rg3l5w"></script>
+<script src="/core/assets/vendor/ckeditor/ckeditor.js?v=4.17.1"></script>
+<script src="/modules/custom/undp_custom/js/ckeditor-custom-table.js?rg3l5w"></script>
+<script src="/core/misc/progress.js?v=9.3.6"></script>
+<script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=9.3.6"></script>
+<script src="/core/misc/ajax.js?v=9.3.6"></script>
+<script src="/core/themes/stable/js/ajax.js?v=9.3.6"></script>
+<script src="/modules/custom/undp_custom/js/get_menu.js?rg3l5w"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=9.3.6"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=9.3.6"></script>
+<script src="/modules/contrib/views_infinite_scroll/js/infinite-scroll.js?v=9.3.6"></script>
+<script src="/modules/contrib/better_exposed_filters/js/better_exposed_filters.js?v=4.x"></script>
+<script src="/modules/contrib/better_exposed_filters/js/auto_submit.js?v=4.x"></script>
+<script src="/modules/contrib/facets/js/base-widget.js?v=9.3.6"></script>
+<script src="/modules/contrib/facets/js/facets-views-ajax.js?rg3l5w"></script>
+<script src="/modules/contrib/facets/js/checkbox-widget.js?v=9.3.6"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-897890397b004d81012","applicationID":"899509271","transactionName":"MlxXbBNQW0JZUUQNDAsWdFsVWFpfF3ZCERMEVWl7DkNQbX1cRA0XHGV2Vw9FR15UXlUWPyBXQVEVSGNYXUVzCw0RS1pUDVRHHAZEWQEU","queueTime":0,"applicationTime":1988,"atts":"HhtUGltKSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

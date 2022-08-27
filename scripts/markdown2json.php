@@ -17,7 +17,8 @@ $linkDefault = [
 	'description'	=> '',
 	'category'		=> '默认',
 	'subCategory'	=> null,
-	'tags'			=> []
+	'tags'			=> [],
+	"favicon"		=> null
 ];
 
 // 描述自动转为标签

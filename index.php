@@ -15,9 +15,9 @@ defined('ROOT_PATH')			or define('ROOT_PATH', dirname(__FILE__));
 date_default_timezone_set('Asia/Shanghai');
 
 // 配置文件读取 ====================================================================
-$config				= include('config.php');
-$urlRewrite			= $config['urlRewrite'];
-$pageDatabase		= $config['pageDatabase'];
+$config				= include('config/website.php');
+$urlRewrite			= include('config/rewriter.php');
+$pageDatabase		= include('config/pageDatabase.php');
 $domainDefaultPage	= $config['domainDefaultPage'];
 $assetsVersion		= 20220818211700;
 
@@ -99,6 +99,10 @@ switch($page){
 		include('page/layout/index.php');
 		break;
 	
+	case '2345':
+		include('page/layout/2345.php');
+		break;
+		
 	default:
 		include('page/template/functions.php');
 		include('page/layout/content.php');

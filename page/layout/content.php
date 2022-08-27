@@ -7,6 +7,7 @@
 		<title><?=$pageInfo['title']; ?> - <?=strip_tags($pageInfo['sub-title']); ?> | MtF 小站 - By.悦咚@YueDongQwQ</title>
 
 		<link rel="stylesheet" href="/assets/style/github-markdown.css">
+		<link rel="stylesheet" href="/assets/style/common.css?v=<?=$assetsVersion; ?>">
 		<link rel="stylesheet" href="/assets/style/main.css?v=<?=$assetsVersion; ?>">
 		<link rel="stylesheet" href="/assets/vendor/viewer.js/viewer.min.css">
 		<link rel="stylesheet" href="/assets/vendor/iconfont/iconfont.css?v=<?=$assetsVersion; ?>">

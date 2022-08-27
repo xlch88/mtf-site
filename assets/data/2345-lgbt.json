@@ -128,7 +128,8 @@
             "description": " ([Twitter](https:\/\/twitter.com\/MtFwiki))",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "mtf.wiki.ico"
         },
         {
             "name": "MtF 指南针",
@@ -136,7 +137,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "mtf.party.jpg"
         },
         {
             "name": "MtF Hub",
@@ -144,7 +146,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "hub.mtf.party.png"
         },
         {
             "name": "MtF 小站",
@@ -152,7 +155,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "MtFHRT@groups.io",
@@ -160,7 +164,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "groups.io.png"
         },
         {
             "name": "Shizu's HRT Guide",
@@ -168,7 +173,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "docs.hrt.guide.ico"
         },
         {
             "name": "MtF 情報発信サイト",
@@ -178,7 +184,8 @@
             "subCategory": null,
             "tags": [
                 "lang:日语"
-            ]
+            ],
+            "favicon": "joseika.com.jpg"
         },
         {
             "name": "Suporn Clinic 日本公式サイト",
@@ -188,7 +195,8 @@
             "subCategory": null,
             "tags": [
                 "lang:日语"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "「ことのは」が運営する個人ブログ",
@@ -198,7 +206,8 @@
             "subCategory": null,
             "tags": [
                 "lang:日语"
-            ]
+            ],
+            "favicon": "www.tukinasikotonoha.com.png"
         },
         {
             "name": "Sex Reassignment Surgery",
@@ -208,7 +217,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Feminizing hormone therapy",
@@ -218,7 +228,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Transfeminine Science",
@@ -228,7 +239,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "transfemscience.org.png"
         },
         {
             "name": "MtF Certificate",
@@ -236,7 +248,8 @@
             "description": "",
             "category": "MtF",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "FtM.wiki",
@@ -244,7 +257,8 @@
             "description": "[Twitter](https:\/\/twitter.com\/FtMwiki)",
             "category": "FtM",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "ftm.wiki.png"
         },
         {
             "name": "TransGuys",
@@ -254,7 +268,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "transguys.com.png"
         },
         {
             "name": "Top Surgery Guide",
@@ -264,7 +279,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.topsurgery.net.png"
         },
         {
             "name": "Hudson's FtM Resource Guide",
@@ -274,7 +290,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.ftmguide.org.ico"
         },
         {
             "name": "FtM International",
@@ -282,7 +299,8 @@
             "description": "",
             "category": "FtM",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "Sex Reassignment Surgery",
@@ -292,7 +310,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Masculinizing hormone therapy",
@@ -302,7 +321,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "世界跨性别健康专业协会（WPATH）",
@@ -312,7 +332,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.wpath.org.png"
         },
         {
             "name": "全国跨性别平权中心",
@@ -323,7 +344,8 @@
             "tags": [
                 "lang:英语",
                 "country:美国"
-            ]
+            ],
+            "favicon": "transequality.org.ico"
         },
         {
             "name": "Sylvia Rivera Law Project",
@@ -334,7 +356,8 @@
             "tags": [
                 "lang:英语",
                 "country:美国"
-            ]
+            ],
+            "favicon": "srlp.org.png"
         },
         {
             "name": "跨性别法律中心",
@@ -344,7 +367,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "transgenderlawcenter.org.png"
         },
         {
             "name": "Gender Spectrum",
@@ -354,7 +378,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "美国心理学会",
@@ -364,7 +389,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.apa.org.png"
         },
         {
             "name": "日本 GID\/GD と共に生きる人々の会",
@@ -374,7 +400,8 @@
             "subCategory": null,
             "tags": [
                 "lang:日语"
-            ]
+            ],
+            "favicon": "gid.jp.ico"
         },
         {
             "name": "label X",
@@ -384,7 +411,8 @@
             "subCategory": null,
             "tags": [
                 "lang:日语"
-            ]
+            ],
+            "favicon": "ftxmtx-x-gender.com.png"
         },
         {
             "name": "Gender Analysis",
@@ -394,7 +422,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "genderanalysis.net.ico"
         },
         {
             "name": "Wiki Trans",
@@ -404,7 +433,8 @@
             "subCategory": null,
             "tags": [
                 "lang:法语"
-            ]
+            ],
+            "favicon": "wikitrans.co.png"
         },
         {
             "name": "RLE.wiki",
@@ -412,7 +442,8 @@
             "description": "",
             "category": "RLE",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "成为女孩子的声音！",
@@ -422,7 +453,8 @@
             "subCategory": null,
             "tags": [
                 "assets-type:电子书"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "无性别卫生间分享计划",
@@ -430,7 +462,8 @@
             "description": "",
             "category": "RLE",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "github.com.svg"
         },
         {
             "name": "HRT.Cafe",
@@ -440,7 +473,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "hrt.cafe.png"
         },
         {
             "name": "DIY HRT",
@@ -450,7 +484,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "diyhrt.wiki.png"
         },
         {
             "name": "DIY HRT (frama)",
@@ -460,7 +495,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "diyhrt.frama.io.png"
         },
         {
             "name": "中国大陆 ADHD\/ASD 成人可确诊地图",
@@ -468,7 +504,8 @@
             "description": "",
             "category": "ADHD\/ASD",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "transHelper (Android)",
@@ -476,7 +513,8 @@
             "description": "",
             "category": "App",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "github.com.svg"
         },
         {
             "name": "那些秋叶",
@@ -484,7 +522,8 @@
             "description": "拒绝对跨性别的暴力",
             "category": "社区",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "one-among.us.png"
         },
         {
             "name": "limelight.moe",
@@ -492,7 +531,8 @@
             "description": "目前已关闭注册",
             "category": "社区",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "limelight.moe.png"
         },
         {
             "name": "生如夏花论坛",
@@ -500,7 +540,8 @@
             "description": "",
             "category": "社区",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "bbs.viva-la-vita.org.png"
         },
         {
             "name": "跨樂園",
@@ -510,7 +551,8 @@
             "subCategory": null,
             "tags": [
                 "country:香港"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "成為自己－未竟之路性別實踐論壇",
@@ -520,7 +562,8 @@
             "subCategory": null,
             "tags": [
                 "country:台湾"
-            ]
+            ],
+            "favicon": "trnt.tw.jpeg"
         },
         {
             "name": "不明小站",
@@ -530,7 +573,8 @@
             "subCategory": null,
             "tags": [
                 "country:台湾"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "MtF.wiki Official",
@@ -538,7 +582,8 @@
             "description": "",
             "category": "社区",
             "subCategory": "Discord Server",
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "MtF.wiki Official (Japan)",
@@ -546,7 +591,8 @@
             "description": "",
             "category": "社区",
             "subCategory": "Discord Server",
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "FtM.wiki Official",
@@ -554,7 +600,8 @@
             "description": "",
             "category": "社区",
             "subCategory": "Discord Server",
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "MtF 中文社区",
@@ -562,7 +609,8 @@
             "description": "",
             "category": "社区",
             "subCategory": "Reddit",
-            "tags": []
+            "tags": [],
+            "favicon": "www.reddit.com.ico"
         },
         {
             "name": "MtF Wiki",
@@ -572,7 +620,8 @@
             "subCategory": "Reddit",
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.reddit.com.ico"
         },
         {
             "name": "FtM Wiki",
@@ -582,7 +631,8 @@
             "subCategory": "Reddit",
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.reddit.com.ico"
         },
         {
             "name": "Transgender Surgeries",
@@ -592,7 +642,8 @@
             "subCategory": "Reddit",
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.reddit.com.ico"
         },
         {
             "name": "Transgender Surgeries Wiki",
@@ -602,7 +653,8 @@
             "subCategory": "Reddit",
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.reddit.com.ico"
         },
         {
             "name": "跨儿心理小组",
@@ -612,7 +664,8 @@
             "subCategory": null,
             "tags": [
                 "country:中国大陆"
-            ]
+            ],
+            "favicon": "kuaerxinli.org.png"
         },
         {
             "name": "庄尼心理咨询中心",
@@ -622,7 +675,8 @@
             "subCategory": null,
             "tags": [
                 "country:中国大陆"
-            ]
+            ],
+            "favicon": null
         },
         {
             "name": "LGBTQIA in China",
@@ -632,7 +686,8 @@
             "subCategory": null,
             "tags": [
                 "country:中国大陆"
-            ]
+            ],
+            "favicon": "github.com.svg"
         },
         {
             "name": "平權在線",
@@ -642,7 +697,8 @@
             "subCategory": null,
             "tags": [
                 "country:香港"
-            ]
+            ],
+            "favicon": "www.equalityrights.hku.hk.png"
         },
         {
             "name": "平等機會委員會",
@@ -652,7 +708,8 @@
             "subCategory": null,
             "tags": [
                 "country:香港"
-            ]
+            ],
+            "favicon": "www.eoc.org.hk.png"
         },
         {
             "name": "台灣性別不明關懷協會",
@@ -662,7 +719,8 @@
             "subCategory": null,
             "tags": [
                 "country:台湾"
-            ]
+            ],
+            "favicon": "www.istscare.org.ico"
         },
         {
             "name": "中国 (P.R.C)",
@@ -670,7 +728,8 @@
             "description": "",
             "category": "Google 地图",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "台湾 (R.O.C)",
@@ -678,7 +737,8 @@
             "description": "",
             "category": "Google 地图",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "日本",
@@ -686,7 +746,8 @@
             "description": "",
             "category": "Google 地图",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "香港",
@@ -694,7 +755,8 @@
             "description": "",
             "category": "Google 地图",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "泰国 (SRS)",
@@ -702,7 +764,8 @@
             "description": "",
             "category": "Google 地图",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "潘柏林",
@@ -710,7 +773,8 @@
             "description": "",
             "category": "Bilibili",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "space.bilibili.com.ico"
         },
         {
             "name": "陈臻",
@@ -718,7 +782,8 @@
             "description": "",
             "category": "Bilibili",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "space.bilibili.com.ico"
         },
         {
             "name": "BIE 别的女孩",
@@ -726,7 +791,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "Queer Squad",
@@ -734,7 +800,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "同城青少年资源中心",
@@ -742,7 +809,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "女友组 girlfans",
@@ -750,7 +818,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "跨儿心理",
@@ -758,7 +827,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "跨儿说 TransTalks",
@@ -766,7 +836,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "跨性别热线",
@@ -774,7 +845,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "跨赛斯",
@@ -782,7 +854,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "跨青年",
@@ -790,7 +863,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "镇镇的彩虹",
@@ -798,7 +872,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "飞天猫兄弟盟",
@@ -806,7 +881,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "北同文化",
@@ -814,7 +890,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "北同心理",
@@ -822,7 +899,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "北同服务号",
@@ -830,7 +908,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "lesgo 苏州拉拉公益小组",
@@ -838,7 +917,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "云南平行健康咨询发展中心",
@@ -846,7 +926,8 @@
             "description": "",
             "category": "微信公众号",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "open.weixin.qq.com.ico"
         },
         {
             "name": "LGBT fiction",
@@ -854,7 +935,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "zh.wikipedia.org.png"
         },
         {
             "name": "想要变成鹰的鱼",
@@ -862,7 +944,8 @@
             "description": "原名：药娘的天空",
             "category": "文化 \/ 影视作品",
             "subCategory": "小说",
-            "tags": []
+            "tags": [],
+            "favicon": "book.sfacg.com.ico"
         },
         {
             "name": "Luna (2004)",
@@ -870,7 +953,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "小说",
-            "tags": []
+            "tags": [],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Becoming Nicole",
@@ -880,7 +964,8 @@
             "subCategory": "纪实文学",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "books.google.com.ico"
         },
         {
             "name": "Boys Don't Cry (1999)",
@@ -890,7 +975,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Soldier's Girl (2003)",
@@ -898,7 +984,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电影",
-            "tags": []
+            "tags": [],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "蝴蝶 (2004)",
@@ -908,7 +995,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:香港"
-            ]
+            ],
+            "favicon": "zh.wikipedia.org.png"
         },
         {
             "name": "Trans America (2005)",
@@ -918,7 +1006,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Just Charlie (2010)",
@@ -928,7 +1017,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "www.imdb.com.png"
         },
         {
             "name": "The Danish Girl (2015)",
@@ -938,7 +1028,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "有性无别 (2016)",
@@ -946,7 +1037,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电影",
-            "tags": []
+            "tags": [],
+            "favicon": "movie.douban.com.ico"
         },
         {
             "name": "彼らが本気で編むときは、 (2017)",
@@ -956,7 +1048,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:日本"
-            ]
+            ],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "Girl (2018)",
@@ -966,7 +1059,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "翠絲 (2018)",
@@ -976,7 +1070,8 @@
             "subCategory": "电影",
             "tags": [
                 "country:香港"
-            ]
+            ],
+            "favicon": "zh.wikipedia.org.png"
         },
         {
             "name": "私が私であるために (2006)",
@@ -986,7 +1081,8 @@
             "subCategory": "电视剧",
             "tags": [
                 "country:日本"
-            ]
+            ],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "Orange is the New Black (2013)",
@@ -996,7 +1092,8 @@
             "subCategory": "电视剧",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Sense8 (2015)",
@@ -1006,7 +1103,8 @@
             "subCategory": "电视剧",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Pose (2018)",
@@ -1016,7 +1114,8 @@
             "subCategory": "电视剧",
             "tags": [
                 "country:美国"
-            ]
+            ],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "女子的生活 (2018)",
@@ -1026,7 +1125,8 @@
             "subCategory": "电视剧",
             "tags": [
                 "country:日本"
-            ]
+            ],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "Euphoria (2019)",
@@ -1034,7 +1134,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电视剧",
-            "tags": []
+            "tags": [],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "Veneno (2020)",
@@ -1042,7 +1143,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电视剧",
-            "tags": []
+            "tags": [],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "放浪息子",
@@ -1050,7 +1152,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电视动画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "Back Street Girls",
@@ -1058,7 +1161,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "电视动画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "IS〜男でも女でもない性〜 (2003)",
@@ -1066,7 +1170,8 @@
             "description": "一般译作：「IS 上帝的恶作剧」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "生まれる性別をまちがえた! (2017)",
@@ -1074,7 +1179,8 @@
             "description": "一般译作：「我生错性别了！」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "www.amazon.co.jp.ico"
         },
         {
             "name": "性別「モナリザ」の君へ。 (2018)",
@@ -1082,7 +1188,8 @@
             "description": "一般译作：「致性别为“蒙娜丽莎”的你。」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "不可解なぼくのすべてを (2018)",
@@ -1090,7 +1197,8 @@
             "description": "一般译作：「不可解的我的一切」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "comic.pixiv.net.ico"
         },
         {
             "name": "オレが私になるまで (2019)",
@@ -1098,7 +1206,8 @@
             "description": "一般译作：「直到我不再是我」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "先輩はおとこのこ (2019)",
@@ -1106,7 +1215,8 @@
             "description": "一般译作：「前辈是伪娘」",
             "category": "文化 \/ 影视作品",
             "subCategory": "漫画",
-            "tags": []
+            "tags": [],
+            "favicon": "ja.wikipedia.org.png"
         },
         {
             "name": "Celeste",
@@ -1114,7 +1224,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "游戏",
-            "tags": []
+            "tags": [],
+            "favicon": "en.wikipedia.org.png"
         },
         {
             "name": "A YEAR OF SPRINGS",
@@ -1122,7 +1233,8 @@
             "description": "",
             "category": "文化 \/ 影视作品",
             "subCategory": "游戏",
-            "tags": []
+            "tags": [],
+            "favicon": "store.steampowered.com.ico"
         },
         {
             "name": "awesome trans",
@@ -1130,7 +1242,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "Transgender Resources Center",
@@ -1138,7 +1251,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "tgr.org.hk.ico"
         },
         {
             "name": "Transgender lost years",
@@ -1146,7 +1260,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "github.com.svg"
         },
         {
             "name": "UCSF Transgender Care",
@@ -1154,7 +1269,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "transcare.ucsf.edu.ico"
         },
         {
             "name": "Healthy Place",
@@ -1162,7 +1278,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "www.healthyplace.com.ico"
         },
         {
             "name": "跨性别在线·文档库",
@@ -1170,7 +1287,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "docs.transonline.org.cn.ico"
         },
         {
             "name": "LGBT 文件资料索引库",
@@ -1178,7 +1296,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "cnlgbtdata.com.ico"
         },
         {
             "name": "生如夏花知识库",
@@ -1186,7 +1305,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "wiki.viva-la-vita.org.ico"
         },
         {
             "name": "这就是性别烦躁，供参考",
@@ -1194,7 +1314,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "genderdysphoria.fyi.png"
         },
         {
             "name": "医保开 HRT（激素代替治疗）药物流程",
@@ -1202,7 +1323,8 @@
             "description": "",
             "category": "资料 \/ 文章",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "zhuanlan.zhihu.com.png"
         },
         {
             "name": "跨性别者性别认同的法律承认 - 中国相关法律和政策评估报告",
@@ -1210,7 +1332,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "www.cn.undp.org.ico"
         },
         {
             "name": "中国性少数群体生存状况 - 基于性倾向，性别认同和性别表达的社会态度调查报告",
@@ -1218,7 +1341,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "www.cn.undp.org.ico"
         },
         {
             "name": "为亚洲及太平洋地区跨性别者及其社群提供完善照护之构想",
@@ -1226,7 +1350,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "www.cn.undp.org.ico"
         },
         {
             "name": "中国跨性别者寻求性别确认医疗程序时遇到的障碍",
@@ -1234,7 +1359,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "www.amnesty.org.png"
         },
         {
             "name": "跨性別人士\/變性人在香港的權利 - 問與答",
@@ -1244,7 +1370,8 @@
             "subCategory": null,
             "tags": [
                 "lang:繁体中文"
-            ]
+            ],
+            "favicon": "www.eoc.org.hk.png"
         },
         {
             "name": "全球跨性别健康与幸福指数议题 - TvT 社群报告",
@@ -1252,7 +1379,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": "transrespect.org.png"
         },
         {
             "name": "跨性别女性的评估和管理",
@@ -1260,7 +1388,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "跨性别男性的评估与管理",
@@ -1268,7 +1397,8 @@
             "description": "",
             "category": "报告 \/ 书籍",
             "subCategory": null,
-            "tags": []
+            "tags": [],
+            "favicon": null
         },
         {
             "name": "跨性别男性的医疗保健医护人员指南",
@@ -1278,7 +1408,8 @@
             "subCategory": null,
             "tags": [
                 "lang:英语"
-            ]
+            ],
+            "favicon": "www.nickgorton.org.png"
         }
     ]
 }

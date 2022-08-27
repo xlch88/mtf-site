@@ -2,7 +2,7 @@
 $search = $_GET['search'] ?? '';
 
 $pageDatabase = array_filter($pageDatabase, function($info, $key)use($search){
-	if(in_array($key, ['dir', 'urls', 'files', 'mtf-index', 'index'])) return false;
+	if(in_array($key, ['dir', 'urls', 'files', 'mtf-index', 'index', '2345'])) return false;
 	if(!$search) return true;
 	
 	if(
